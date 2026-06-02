@@ -1,0 +1,21 @@
+id,name,endpoint_used,csv_endpoint_overridden,http_status,verdict,evidence_of_graphql,types_count,note
+01,AniList,https://graphql.anilist.co,yes,200,ENABLED,A: full schema returned,196,types=196
+02,Bitquery,https://graphql.bitquery.io,no,401,auth_required,"C: host is graphql.bitquery.io subdomain; vendor docs at docs.bitquery.io confirm GraphQL",-1,http 401 with plain-text body referencing Authorization/X-API-KEY tokens
+03,Braintree,https://payments.braintree-api.com/graphql,no,200,auth_required,"B: GraphQL response envelope (data:null, errors:[{extensions.errorClass:AUTHENTICATION}])",-1,Authentication credentials are missing. Authorization header is required and must contain a value.
+04,Canopy (Amazon),https://graphql.canopyapi.co/,no,401,auth_required,"B: GraphQL response envelope (data:null, errors:[{extensions.code:UNAUTHENTICATED}])",-1,Missing one of the following headers: CANOPY-API-KEY / API-KEY / Authorization Bearer
+05,Catalysis Hub,http://api.catalysis-hub.org/graphql,no,200,ENABLED,A: full schema returned,65,types=65
+06,Chargetrip,https://playground.chargetrip.com/,no,403,auth_required,"C: APIs-guru listed; host serves Chargetrip GraphQL Playground; CloudFront 403 intercepted before backend",-1,HTML 403 from CloudFront ('The request could not be satisfied')
+07,EAN-Search,https://api.ean-search.org/graphql,no,402,auth_required,"B: GraphQL response envelope (data:null, errors:[{message:Authorization failed}])",-1,http 402 — payment-required tier
+08,Contentful,https://graphql.contentful.com,no,200,tenant_routing,"C: welcome page links to GraphQL docs; real API is /content/v1/spaces/{space_id} per-tenant",-1,"returns welcome page; real endpoint is /content/v1/spaces/{space_id} per-tenant with access token"
+09,Countries (trevorblades),https://countries.trevorblades.com,no,200,ENABLED,A: full schema returned,23,types=23
+10,TravelgateX,https://api.travelgatex.com/,no,401,auth_required,"B: GraphQL response envelope (data:null, errors:[{message:Missing authorization header}])",-1,http 401 with GraphQL-shaped error body
+11,Digitransit HSL,https://api.digitransit.fi/routing/v2/finland/gtfs/v1,yes,401,auth_required,"C: digitransit.fi documents the path as a GraphQL endpoint; Azure APIM gateway intercepted before GraphQL layer",-1,"http 401 with Azure APIM message: subscription key required"
+12,EHRI,https://portal.ehri-project.eu/api/graphql,yes,200,ENABLED,A: full schema returned,69,types=69
+13,TCGdex,https://api.tcgdex.net/v2/graphql,no,200,ENABLED,A: full schema returned,32,types=32
+14,Memair,https://memair.com/graphql,no,400,auth_required,"B: GraphQL-adjacent response envelope (data:{}, error:{message: 'No access token provided'}); URL path is /graphql",-1,"No access token provided, please see docs.memair.com for more details"
+15,GitHub,https://api.github.com/graphql,yes,403,auth_required,"C: api.github.com/graphql is the documented GitHub GraphQL API v4; anonymous request hit rate-limit before reaching GraphQL layer",-1,http 403 — anonymous rate-limit message pointing at docs.github.com
+16,GitLab,https://gitlab.com/api/graphql,yes,200,ENABLED,A: full schema returned,3879,types=3879 (7.2 MB response; initial scan truncated at 512 KB body cap)
+17,monday.com,https://api.monday.com/v2,no,401,auth_required,"B: GraphQL response envelope (errors:[{extensions.code:NOT_AUTHENTICATED}])",-1,http 401 with GraphQL-shaped error body
+18,HIVDB (Stanford),https://hivdb.stanford.edu/graphql,yes,200,ENABLED,A: full schema returned,80,types=80
+19,Pipefy,https://api.pipefy.com/graphql,yes,401,auth_required,"B: errors:[{title:Unauthorized,detail:...}] — JSON:API-style but errors-array envelope; URL path /graphql",-1,http 401 with errors-array body
+20,Yelp,https://api.yelp.com/v3/graphql,no,401,auth_required,"C: api.yelp.com/v3/graphql is Yelp's documented public GraphQL API; gateway returned TOKEN_MISSING before GraphQL layer",-1,"http 401, gateway error body {'error':{'code':'TOKEN_MISSING'}}"

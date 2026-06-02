@@ -1,0 +1,331 @@
+{
+  "data": {
+    "__schema": {
+      "queryType": {
+        "name": "Root"
+      },
+      "types": [
+        {
+          "name": "AAReads",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ASIAlgorithm",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AlgorithmComparison",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AlignedGeneSequence",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "BoundMutationComment",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "BoundMutationPrevalence",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "BoundSubtype",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Char",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "CommentType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CommentsByType",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ComparableDrugScore",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomASIAlgorithm",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CutoffKeyPoint",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DescriptiveStatistics",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Drug",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DrugClass",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DrugClassEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DrugEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DrugPartialScore",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DrugResistance",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DrugResistanceAlgorithm",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DrugScore",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "EnumGene",
+          "kind": "ENUM"
+        },
+        {
+          "name": "EnumSequenceReadsHistogramAggregatesOption",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Float",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "FrameShift",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Gene",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GeneMutations",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GeneSequenceReads",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "HIVBoundSubtype",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "HIVClassificationLevel",
+          "kind": "ENUM"
+        },
+        {
+          "name": "HIVSubtype",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Int",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "Long",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "Mutation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MutationPrevalence",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MutationPrevalenceByAA",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MutationPrevalenceSubtype",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MutationPrevalenceSubtypeStat",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MutationSetFilterOption",
+          "kind": "ENUM"
+        },
+        {
+          "name": "MutationType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "MutationsAnalysis",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MutationsByType",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OneCodonReads",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OneCodonReadsCoverage",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OneCodonReadsInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PositionCodonReads",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PositionCodonReadsInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PrettyPairwise",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Root",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SIR",
+          "kind": "ENUM"
+        },
+        {
+          "name": "SequenceAnalysis",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SequenceReadsAnalysis",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SequenceReadsHistogram",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SequenceReadsHistogramBin",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SequenceReadsHistogramByCodonReads",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SequenceReadsHistogramByCodonReadsBin",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SequenceReadsInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SierraVersion",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Strain",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StrainEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "String",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "Subtype",
+          "kind": "ENUM"
+        },
+        {
+          "name": "UnalignedSequenceInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "UnalignedSequenceOutput",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UnsequencedRegion",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UnsequencedRegions",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UntranslatedRegionInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ValidationLevel",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ValidationResult",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Viewer",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Directive",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__DirectiveLocation",
+          "kind": "ENUM"
+        },
+        {
+          "name": "__EnumValue",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Field",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__InputValue",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Schema",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Type",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__TypeKind",
+          "kind": "ENUM"
+        }
+      ]
+    }
+  }
+}

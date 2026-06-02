@@ -1,0 +1,1 @@
+{"extensions":{"requestId":"887c1e8b-a34f-4a53-90e2-61c9e751bd67"},"data":null,"errors":[{"message":"Authentication credentials are missing. Authorization header is required and must contain a value.","extensions":{"errorClass":"AUTHENTICATION","errorType":"developer_error"}}]}

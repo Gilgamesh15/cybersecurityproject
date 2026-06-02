@@ -1,21 +1,21 @@
 id,name,category,endpoint_url
 01,AniList,Entertainment data,https://anilist.co/graphiql
 02,Bitquery,Blockchain analytics,https://graphql.bitquery.io
-03,Buildkite,CI / dev tools,https://graphql.buildkite.com/
+03,Braintree,Payments,https://payments.braintree-api.com/graphql
 04,Canopy (Amazon),E-commerce data,https://graphql.canopyapi.co/
 05,Catalysis Hub,Scientific data,http://api.catalysis-hub.org/graphql
 06,Chargetrip,EV / mobility,https://playground.chargetrip.com/
-07,CommerceTools,E-commerce,https://impex.commercetools.com/graphiql
+07,EAN-Search,Product data,https://api.ean-search.org/graphql
 08,Contentful,Headless CMS,https://graphql.contentful.com
 09,Countries (trevorblades),Public data,https://countries.trevorblades.com
-10,Deutsche Bahn (BahnQL),Transit,https://bahnql.herokuapp.com/graphql
+10,TravelgateX,Travel marketplace,https://api.travelgatex.com/
 11,Digitransit HSL,Transit,https://api.digitransit.fi/graphiql/finland
 12,EHRI,Archives / research,https://portal.ehri-project.eu/api/graphql/ui
-13,EtMDB,Entertainment data,https://etmdb.com/graphql
-14,Gdom,DOM / scraping,http://gdom.graphene-python.org/graphql
+13,TCGdex,Pokémon TCG database,https://api.tcgdex.net/v2/graphql
+14,Memair,Quantified self,https://memair.com/graphql
 15,GitHub,Dev platform,https://docs.github.com/en/graphql
 16,GitLab,Dev platform,https://gitlab.com/-/graphql-explorer
-17,GraphQL Jobs,Job board,https://api.graphql.jobs
+17,monday.com,Workflow ops,https://api.monday.com/v2
 18,HIVDB (Stanford),Medical research,https://hivdb.stanford.edu/page/graphiql/
 19,Pipefy,Workflow ops,https://app.pipefy.com/graphiql
-20,React Finland,Conference data,https://api.react-finland.fi/graphql
+20,Yelp,Local-business reviews,https://api.yelp.com/v3/graphql

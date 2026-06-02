@@ -1,0 +1,217 @@
+{
+  "data" : {
+    "__schema" : {
+      "queryType" : {
+        "name" : "Root"
+      },
+      "types" : [ {
+        "name" : "AccessPoint",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "AccessPointType",
+        "kind" : "ENUM"
+      }, {
+        "name" : "Address",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Annotatable",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "Annotation",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "AnnotationEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "AuthoritativeSet",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "AuthoritativeSetEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "BigDecimal",
+        "kind" : "SCALAR"
+      }, {
+        "name" : "Boolean",
+        "kind" : "SCALAR"
+      }, {
+        "name" : "Country",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "CountryEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Cursor",
+        "kind" : "SCALAR"
+      }, {
+        "name" : "CvocConcept",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "CvocConceptDescription",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "CvocConceptEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "CvocVocabulary",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "CvocVocabularyEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "DatePeriod",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Described",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "Description",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "DocumentaryUnit",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "DocumentaryUnitDescription",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "DocumentaryUnitEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Entity",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "HistoricalAgent",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "HistoricalAgentDescription",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "HistoricalAgentEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "ID",
+        "kind" : "SCALAR"
+      }, {
+        "name" : "Int",
+        "kind" : "SCALAR"
+      }, {
+        "name" : "Link",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "LinkEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "LinkType",
+        "kind" : "ENUM"
+      }, {
+        "name" : "Linkable",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "Relationship",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Repository",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "RepositoryDescription",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "RepositoryEdge",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Root",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "String",
+        "kind" : "SCALAR"
+      }, {
+        "name" : "SystemEvent",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "Temporal",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "TemporalDescription",
+        "kind" : "INTERFACE"
+      }, {
+        "name" : "__Directive",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "__DirectiveLocation",
+        "kind" : "ENUM"
+      }, {
+        "name" : "__EnumValue",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "__Field",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "__InputValue",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "__Schema",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "__Type",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "__TypeKind",
+        "kind" : "ENUM"
+      }, {
+        "name" : "annotations",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "authoritativeSets",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "concepts",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "countries",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "documentaryUnits",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "historicalAgents",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "links",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoAnnotation",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoAuthoritativeSet",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoCountry",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoCvocConcept",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoCvocVocabulary",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoDocumentaryUnit",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoHistoricalAgent",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoLink",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "pageInfoRepository",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "repositories",
+        "kind" : "OBJECT"
+      }, {
+        "name" : "vocabularies",
+        "kind" : "OBJECT"
+      } ]
+    }
+  }
+}
