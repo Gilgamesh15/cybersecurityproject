@@ -1,0 +1,660 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+    
+        
+
+<head>
+    <title>EHRI - GraphQL Documentation</title>
+
+    
+<link rel="shortcut icon" type="image/ico" href="/assets/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+
+    <link rel="stylesheet" href="/v/css/cceba5d2125ba855d9fa89645229314c-portal.css">
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="copyright" content="Copyright EHRI-ERIC 2026">
+    <meta name="description" content="The European Holocaust Research Infrastructure Online Portal">
+    <meta name="keywords" content="EHRI,Portal,Holocaust,Research,Shoah,Archives,History,Deportations,Camps,Ghettos">
+
+    <!-- Open Graph meta tags -->
+    
+
+
+
+
+<meta property="og:site_name" content="The EHRI Portal">
+
+    
+        <meta property="og:title" content="The EHRI Portal">
+    
+
+
+    
+        <meta property="og:description" content="The EHRI portal offers access to information on Holocaust-related archival material held in institutions across Europe and beyond.">
+    
+
+
+    
+        <meta property="og:url" content="https://portal.ehri-project.eu/">
+    
+
+
+    <meta property="og:image" content="https://portal.ehri-project.eu/assets/img/ehri-portal-og.png">
+
+
+    <meta property="og:image:width" content="1200">
+
+
+    <meta property="og:image:height" content="630">
+
+<meta property="og:type" content="website">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    
+    
+    <link rel="stylesheet" href="/v/js/lib/codemirror/e14233d23fee51f1b6f22ad2ba647069-codemirror.css">
+
+    
+
+    
+<script defer data-domain="portal.ehri-project.eu" src="https://plausible.io/js/script.js"></script>
+<script type=application/ld+json>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "The EHRI Portal",
+    "description": "The EHRI portal offers access to information on Holocaust-related archival material held in institutions across Europe and beyond. For more information on the EHRI project visit https://www.ehri-project.eu.",
+    "about": {
+      "@type": "Organization",
+      "email": "info@ehri-project.eu",
+      "name": "EHRI-ERIC"
+    },
+    "sameAs": [
+      "https://facebook.com/EHRIproject",
+      "https://bsky.app/profile/ehri-project.eu",
+      "https://www.linkedin.com/company/ehri-european-holocaust-research-infrastructure"
+    ],
+    "url": "https://portal.ehri-project.eu/"}
+</script>
+
+</head>
+
+        <body class="api ">
+            
+<script src="/v/js/321e91845a5e4d3b00a719a87b864bcc-script-pre.min.js"></script>
+
+            
+                
+
+
+                
+
+
+                
+
+
+                <header id="header" class="navigation">
+                    
+
+<div id="navbar-top-container">
+    <nav id="navbar-top">
+        <div id="navbar-actions">
+            
+    
+
+        </div>
+        <div id="navbar-account-toggle">
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
+            data-target="#navbar-account" aria-expanded="false" aria-controls="navbar-account">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div id="navbar-account" class="navbar-collapse collapse">
+            
+    
+<ul>
+    
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Help
+            <span class="caret"></span>
+        </a>
+        <div id="help-dropdown" class="dropdown-menu" role="menu">
+            
+                <a class="dropdown-item" role="menuitem" href="https://training.ehri-project.eu/unit/7-ehri-portal-manual" target="_blank" rel="noopener">
+                    Online Manual
+                </a>
+            
+            <a class="dropdown-item" role="menuitem" href="/help/faq">
+                Frequently Asked Questions
+            </a>
+            <div class="dropdown-divider" role="presentation"></div>
+            <a class="dropdown-item" role="menuitem" href="/about">About EHRI</a>
+            <a class="dropdown-item" role="menuitem" href="/contact">Contact EHRI</a>
+        </div>
+    </li>
+    
+        <li>
+            <a href="/login">
+                Sign In
+            </a>
+        </li>
+        <li>
+            <a href="/signup">
+                Register
+            </a>
+        </li>
+    
+</ul>
+
+
+        </div>
+    </nav>
+</div>
+
+
+                    
+<div id="navbar-primary-container">
+    <nav id="navbar-primary">
+        <a id="navbar-logo" href="/" title="Home">
+            <img alt="European Holocaust Research Infrastructure Logo" height="56" src="/v/img/96f7b51430f50ba96ae439dc9372ea39-ehri-logo-notag-reverse.svg" rel="logo">
+        </a>
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
+                data-target="#navbar-primary-dropdown" aria-expanded="false" aria-controls="navbar-primary-dropdown">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar-primary-dropdown" class="navbar-collapse collapse">
+            <ul>
+                <li class="country ">
+                    <a href="/countries">Countries</a>
+                </li>
+                <li class="repository ">
+                    <a href="/institutions">Archival Institutions</a>
+                </li>
+                <li class="documentaryUnit ">
+                    <a href="/units">Archival Descriptions</a>
+                </li>
+                <li class="vocabulary ">
+                    <a href="/vocabularies">Vocabularies</a>
+                </li>
+                <li class="authoritativeSet ">
+                    <a href="/sets">Authority Sets</a>
+                </li>
+                
+                    <li>
+                         
+<form action="/search" method="GET" >
+    
+                            <div id="site-search-controls" class="search-box">
+                                <label class="sr-only" for="quicksearch">Site search...</label>
+                                <input class="form-control" type="search" name="q" placeholder="Site search..." id="quicksearch" value="" autocomplete="off">
+                                <span class="input-group-append">
+                                    <button class="btn submit-search" type="submit" aria-label="Site search...">
+                                        <i class="material-icons form-control-feedback" aria-hidden="true">search</i>
+                                    </button>
+                                </span>
+                            </div>
+                        
+</form>
+
+                    </li>
+                
+            </ul>
+        </div>
+    </nav>
+</div>
+
+                </header>
+                
+
+
+            
+            
+    
+    <nav class="info-bar">
+        <ol class="breadcrumb">
+            <li><a href="/api">API</a></li>
+            
+                <li><a href="/api/graphql"> GraphQL Documentation</a></li>
+            
+        </ol>
+    </nav>
+
+    
+<main class="main-content">
+    
+        
+<section class="double">
+    <aside class="sidebar">
+        
+            
+    
+        <div class="sidebar-section" id="doc-sidebar">
+            <nav class="sidebar-section-body" id="doc-navbar">
+                <ul class="nav action-group">
+                    
+    <li class="nav-item" role="presentation"><a class="nav-link" href="#overview">Overview</a></li>
+    <li class="nav-item" role="presentation"><a class="nav-link" href="#api-usage">Usage</a>
+        <ul class="nav">
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#api-usage-example">Example</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#api-usage-formats">Data Formats</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#api-usage-pagination">Pagination and Cursors</a></li>
+        </ul>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" href="#api-usage-python">Example usage with Python</a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+    
+
+        
+    </aside>
+    <article class="main">
+        
+           
+    <h1>GraphQL Documentation</h1>
+    
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>In addition to the <a href="/api/v1">REST-style JSON API</a>,
+            the EHRI portal has an experimental web <a class="external" href="http://graphql.org/">
+            GraphQL</a> API, intended for retrieving specific EHRI data in structured <a href="https://en.wikipedia.org/wiki/JSON" class="external">JSON</a> format.
+
+            Unlike the REST API, the GraphQL interface does not support search. It does, however,
+            provide more types of data, and is a faster and more efficient option when the data
+            required in known in advance. There is also a <a href="/api/graphql/ui">
+            Graph<i>iQL</i> interface</a> which provides an interface for building queries and browsing the
+            types of data that is available.
+        </p>
+
+        <p>See the <a href="http://graphql.org/learn/" class="external">GraphQL Docs</a>
+            for an overview of the language's features and semantics.
+        </p>
+    </section>
+
+    <section id="api-usage">
+        <h2>Usage</h2>
+        <p class="alert alert-info"><strong>Note</strong>: Try the
+            <a href="/api/graphql/ui">Graph<i>i</i>QL</a>
+        interface for a better intractive query experience. Be sure to see the &quot;Docs&quot; section
+        at the right hand side for information on what type and data is available.</p>
+
+        <div id="api-usage-example">
+             
+<form action="/api/graphql" method="POST" class="api-example-form" id="api-usage-form">
+    
+                <div class="form-field">
+                    <label for="api-usage-input" class="">Example Query</label>
+                    <textarea class="api-example" rows="8" id="api-usage-input">
+{
+  Country(id: &quot;us&quot;) {
+    name
+    situation
+  }
+}
+    </textarea>
+                </div>
+                <div class="form-field">
+                    <button class="btn btn-sm btn-primary btn-progress" type="submit">
+                        <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+                        Click to test
+                    </button>
+                </div>
+                <hr>
+
+                <label for="api-usage-output" class="">Example Results</label>
+                <textarea class="api-example" rows="8" id="api-usage-output"></textarea>
+            
+</form>
+
+
+            <br>
+            <p>Run it as a curl command:</p>
+            
+<div class="api-example-curl" id="api-usage-curl">
+    <button class="btn btn-xs copy-button" data-clipboard-target="#api-usage-curl-text">Copy</button>
+    <pre id="api-usage-curl-text">curl --header Content-type:application/json \
+                    https://portal.ehri-project.eu/api/graphql \
+                    --data-binary &#x27;{&quot;query&quot;:&quot;\n{\n Country(id: \&quot;us\&quot;) {\n name\n situation\n }\n}\n &quot;}&#x27;</pre>
+</div>
+
+        </div>
+
+        <hr>
+        <div id="api-usage-formats">
+            <h3>Data Formats</h3>
+            <p>
+                The GraphQL <code>POST</code> endpoint at <code>/api/graphql</code>
+                accepts data in two formats, specified by the <code>Content-type</code> header:
+            </p>
+            <dl>
+                <dt><code>application/json</code></dt>
+                <dd>A JSON object with, at minumum, a <code>query</code> field
+                    containing the text of the query. You can also provide a
+                    <code>variables</code> field containing of a JSON object of
+                    <a class="external" href="http://graphql.org/learn/queries/#variables">
+                        GraphQL Query Variables</a></dd>
+                <dt><code>text/plain</code></dt>
+                <dd>The query as text. Variables are not supported via this format.</dd>
+            </dl>
+        </div>
+
+        <hr>
+        <div id="api-usage-pagination">
+            <h3>Pagination and Cursors</h3>
+            <p>
+                By <i>default</i> the GraphQL API returns paginated (partial) data for types which return lists
+                of items. GraphQL types which represent potentially unbounded lists of items, such as
+                <code>repositories</code> or <code>documentaryUnits</code>, contain two sub-fields name <code>items</code>
+                and <code>pageInfo</code>. The <code>items</code> field is an array of items in the current page, and
+                <code>pageInfo</code> contains a <code>nextPage</code> <i>cursor</i> that can be passed to the <code>after</code> argument
+                to retrieve the next page of items. (More generally this pagination schema conforms to the <a href="https://facebook.github.io/relay/graphql/connections.htm">Relay Cursor Connections Specification</a>, with the exception of backwards pagination
+                which is not currently supported.)
+            </p>
+            <p>
+                This is an example of a query which fetches the items and next page cursor:
+            </p>
+            <script src="https://gist.github.com/mikesname/d8abd5bb4f7d775adfc2e33ec123f35f.js"></script>
+            <p>
+                In this case, if no variables were provided for the value of the <code>$cursor</code> parameter
+                it would default to <code>null</code>, returning the first page of items. Thereafter the value of
+                <code>nextPage</code> can be used as the <code>$cursor</code> value to retrieve subsequent items.
+            </p>
+
+            <h4>Streaming</h4>
+            <p>
+                While response pagination is appropriate for user interfaces or memory-constrained applications
+                it is less efficient than retrieving a complete data set as a stream.
+                Streaming can be enabled for the GraphQL API by adding the HTTP header value <code>X-Stream: true</code>
+                to the GraphQL request. In this mode, pagination will be disabled for all list types and the full dataset
+                returned as an HTTP chunked response.
+            </p>
+        </div>
+    </section>
+
+    <section id="api-usage-python">
+        <h2>Example usage with Python</h2>
+
+        <p>The script shown below is a Python script for creating a tab-delimited (TSV) file containing three
+            fields: the EHRI item id, its title, and the <i>history</i> field of EHRI institution descriptions.</p>
+
+        <script src="https://gist.github.com/mikesname/3f03e09c8c2865cd3b80eb51351c5f85.js"></script>
+
+        <p>You can copy the code to a file called <code>history.py</code> and run it with URL for
+            the EHRI GraphQL API, e.g:</p>
+
+        <pre>python3 history.py "https://portal.ehri-project.eu/api/graphql"</pre>
+
+        <p>This will run a query for the history field of repository descriptions, and download
+            and convert the data to TSV in pages of 50 items at a time.</p>
+    </section>
+
+    <script>
+            jQuery(function ($) {
+                var editor = CodeMirror.fromTextArea(document.getElementById("api-usage-input"), {
+                    readOnly: false,
+                    mode: 'javascript'
+                });
+
+                var results = CodeMirror.fromTextArea(document.getElementById("api-usage-output"), {
+                    readOnly: true,
+                    mode: 'javascript'
+                });
+
+                var $form = $("#api-usage-form");
+                var url = $form.attr("action");
+
+                $form.submit(function(e) {
+                   e.preventDefault();
+
+                    var $button = $(this).find(".btn-progress");
+
+                    var q = $("#api-usage-input").val();
+                    $button.addClass("running");
+
+                    $.ajax({
+                        url: url,
+                        type: $form.attr("method"),
+                        data: JSON.stringify({ query: q }),
+                        contentType: "application/json"
+                    }).done(function (data) {
+                        results.getDoc().setValue(JSON.stringify(data, null, 2));
+                    }).fail(function(e) {
+                        results.getDoc().setValue(JSON.stringify(e.responseJSON, null, 2));
+                    }).always(function() {
+                        $button.removeClass("running")
+                    });
+                });
+
+                editor.on("change", function(e) {
+                    function curl(action) {
+                        var http = location.protocol;
+                        var slashes = http.concat("//");
+                        var value = e.getValue();
+                        var host = slashes.concat(window.location.hostname)
+                                .concat((window.location.port !== ""
+                                        ? (":" + window.location.port) : ""));
+                        return "curl --header Content-type:application/json \\\n"
+                                + "            " + host + action + " \\\n"
+                                + "            --data-binary '" + JSON.stringify({query: value}) + "'";
+                    }
+
+                    $form.parent().find(".api-example-curl > pre").text(curl(url));
+                });
+
+            });
+    </script>
+
+
+    <script>
+        jQuery(function($) {
+            $('body').scrollspy({target: "#doc-navbar"});
+
+            var clip = new ClipboardJS(".copy-button")
+            clip.on("success", function(e) {
+                console.info("Copied!")
+            });
+        });
+    </script>
+
+        
+    </article>
+</section>
+
+    
+</main>
+
+
+            
+                
+
+
+
+<footer id="portal-footer" class="footer sticky">
+    <div id="footer-content">
+        <div id="footer-navs">
+            <div class="newsletter">
+                <h3>Keep up with EHRI news</h3>
+                
+                    <a href="https://us2.list-manage.com/subscribe?u=26b57b75c8a6999778bc4495d&amp;id=58024f80e2" class="btn btn-primary" target="_blank" rel="noopener" id="subscribe-to-newsletter">
+                        <i class="fa-solid fa-envelope"></i>
+                        Subscribe to our mailing list
+                    </a>
+                
+                <div class="social-links">
+                    <a href="https://facebook.com/EHRIproject" title="EHRI on Facebook">
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        Facebook
+                    </a>
+                    <a href="https://bsky.app/profile/ehri-project.eu" title="EHRI on Bluesky">
+                        <i class="fa-brands fa-bluesky" aria-hidden="true"></i>
+                        Bluesky
+                    </a>
+                </div>
+            </div>
+            <ul id="lang-switcher">
+            
+                <li class="active">
+                    <a href="/locale/en">
+                        English
+                    </a>
+                </li>
+            
+                <li class="">
+                    <a href="/locale/fr">
+                        Français
+                    </a>
+                </li>
+            
+                <li class="">
+                    <a href="/locale/de">
+                        Deutsch
+                    </a>
+                </li>
+            
+                <li class="">
+                    <a href="/locale/pl">
+                        Polski
+                    </a>
+                </li>
+            
+                <li class="">
+                    <a href="/locale/es">
+                        Español
+                    </a>
+                </li>
+            
+                <li class="">
+                    <a href="/locale/cs">
+                        Čeština
+                    </a>
+                </li>
+            
+            </ul>
+        </div>
+
+        <div id="footer-blurb">
+            <div class="copyright">&copy; Copyright EHRI-ERIC 2026</div>
+            <div id="footer-logos">
+                <a target="_blank" rel="noopener" title="Ars Electronica 2018 Honorary Mention" href="http://prix2018.aec.at/prixwinner/28933/">
+                    <img alt="Ars Electronica 2018 Honorary Mention" src="/v/img/9ebff9229d4bcbaa1c03d341f235fdbf-ars_2018_hm.jpg">
+                </a>
+            </div>
+        </div>
+
+        <ul id="navbar-tertiary">
+            
+    <li class="">
+        <a href="/terms">Terms and Conditions</a>
+    </li>
+
+            
+    <li class="">
+        <a href="/data-policy">Data Policy</a>
+    </li>
+
+            <li class="">
+                <a href="/api">API</a>
+            </li>
+            
+    <li class="">
+        <a href="/help/faq">Frequently Asked Questions</a>
+    </li>
+
+            
+    <li class="">
+        <a href="/help/datamodel">Data Model</a>
+    </li>
+
+        </ul>
+    </div>
+</footer>
+
+                
+
+    <div id="data-policy" class="modal fade" tabindex="-1" style="display: none" aria-hidden="true" aria-labelledBy="data-policy-label" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="data-policy-label">EHRI Data Policy</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>This database might contain special categories of Personal Data and Personal Data   relating to criminal convictions or offences, which according  to article 9, section 2 under j GDPR   and article 24 and 32 under f of the UAVG (Dutch personal data protection act) can be used for research   purposes only on the condition that there are appropriate safeguards for the rights and freedoms of the data subject.</p>
+                    <p>Special categories of personal data in EHRI is any data related to an identified or   identifiable person related to a person&#x27;s religious or philosophical beliefs, racial or ethnic origin,   political opinion, trade union membership, health, sex life or sexual orientation.</p>
+                </div>
+                <form class="modal-footer">
+                    <label>
+                        <input type="checkbox" name="agree-data-policy-terms" required checked>
+                        I declare that I will use special categories of personal data and personal data relating   to criminal convictions or offences for research purposes only and in general will use this data in   accordance with applicable Dutch and international laws and regulations. I am aware of punitive results   following a breach of these laws and/or regulations.
+                    </label>
+                    <input id="agree-data-policy" type="submit" value="I Agree">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+            
+            
+
+    <script src="/v/js/0244b789d9fce80cb90bdfad7dafafa5-script-post.min.js"></script>
+
+<script src="/routes"></script>
+
+    
+    <script src="/v/js/lib/codemirror/ef4a8060d6ab8b1aa677f6fbc624059f-codemirror.min.js"></script>
+    <script src="/v/js/lib/codemirror/3cbbc5dbd7184b4046d2fb522336ba5a-javascript.min.js"></script>
+    <script src="/v/js/lib/codemirror/c37acac918b0ecef051fc3a6d8ed1d0c-xml.min.js"></script>
+    <script src="/v/js/lib/3c7864e3ae8407f0bc6366bfecae8d1f-clipboard.min.js"></script>
+
+
+            <script>
+                jQuery(function($) {
+                    setupAutoSuggest(document.getElementById("quicksearch"), ["Repository", "Country"]);
+                });
+            </script>
+        </body>
+    
+</html>
+
+
+

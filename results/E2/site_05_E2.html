@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GraphiQL</title>
+    <link href="https://unpkg.com/graphiql@1.11.5/graphiql.min.css" rel="stylesheet" />
+  </head>
+  <body style="margin: 0;">
+    <div id="graphiql" style="height: 100vh;"></div>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/graphiql@1.11.5/graphiql.min.js"></script>
+    <script>
+      function fetcher(params) {
+        return fetch('/graphql', {
+          method: 'post',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(params),
+        }).then(function(r) { return r.json(); });
+      }
+      const defaultQuery = `{
+  reactions(first: 10) {
+    totalCount
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+    edges {
+      node {
+        reactionEnergy
+        chemicalComposition
+      }
+    }
+  }
+}`;
+      ReactDOM.render(
+        React.createElement(GraphiQL, { fetcher: fetcher, defaultQuery: defaultQuery }),
+        document.getElementById('graphiql')
+      );
+    </script>
+  </body>
+</html>
