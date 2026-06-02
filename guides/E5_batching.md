@@ -86,6 +86,46 @@ python3 -c "import json,sys; b=json.load(open('site_${SITE_ID}_E5.json')); print
 
 A two-element or larger batch would risk being interpreted as the start of an actual batching attack and would offer no additional academic value — the precondition has already been confirmed (or refuted) by step 2. Stop here.
 
+## Browser-based reproduction (preferred for documentation screenshots)
+
+Mainstream in-browser GraphQL IDEs (GraphiQL, Apollo Sandbox, Hoppscotch's GraphQL mode) are built around the *single-operation* request shape and do not expose an "array body" button. The cleanest browser test uses either DevTools Console or Hoppscotch's general-purpose HTTP REST mode.
+
+### Approach A — Browser DevTools Console (recommended)
+
+1. Open any browser tab and DevTools → **Console**.
+2. Run:
+
+   ```js
+   fetch("https://countries.trevorblades.com", {
+     method: "POST",
+     headers: { "Content-Type": "application/json" },
+     body: JSON.stringify([{ query: "{ __typename }" }])      // note the [ ]
+   })
+   .then(r => r.json())
+   .then(j => console.log("response is array:", Array.isArray(j), "\n",
+                          JSON.stringify(j, null, 2)));
+   ```
+
+3. Read the result:
+   - `response is array: true` → **batching accepted (vulnerable as precondition)**.
+   - `response is array: false` and the body contains a single `errors`/`data` object → batching rejected (safe).
+4. Screenshot the Console output. Also switch to the **Network** tab, open the request, and screenshot the **Payload** sub-tab (it shows `[{"query":"{ __typename }"}]` — the array body) and the **Preview** sub-tab (showing the array response). Both screenshots together unambiguously document the request envelope and the server's acceptance.
+
+### Approach B — Hoppscotch REST mode (visual UI alternative)
+
+1. Open <https://hoppscotch.io> in the browser — switch to **REST** (not the GraphQL tab; this exploit needs the raw HTTP body editor).
+2. Method = `POST`, URL = endpoint, Headers = `Content-Type: application/json`.
+3. Body → **Raw input** → JSON → paste exactly:
+   ```json
+   [{"query":"{ __typename }"}]
+   ```
+4. Click **Send**.
+5. Inspect the response. If the response body starts with `[` and parses as an array, the server accepted the batch. Screenshot.
+
+### Why neither GraphiQL nor Apollo Sandbox can run this test directly
+
+Both IDEs serialise their request body as a single object via `fetch`. They have no UI for editing the raw request body, and their internal client libraries do not emit arrays. Attempting to "trick" them by pasting `[{...}]` into the operation pane is rejected at the editor level. This is *expected* — IDEs are designed around the single-operation model. DevTools or Hoppscotch's REST mode are the appropriate browser surfaces for this check.
+
 ## OWASP recommended mitigation
 
 - Reject batched HTTP requests (`allowBatchedHttpRequests: false` in `apollo-server`).
