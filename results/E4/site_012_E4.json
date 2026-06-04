@@ -1,0 +1,1 @@
+{"errors":[{"message":"Validation error (FieldUndefined@[produkt]) : Field 'produkt' in type 'Root' is undefined","locations":[{"line":1,"column":3}],"extensions":{"classification":"ValidationError"}}]}

@@ -28,19 +28,19 @@ UA = ("GraphQL-Academic-Survey/1.0 "
       "(university project; contact: brunoraw675@gmail.com)")
 DELAY_BETWEEN_HOSTS_S = 6
 TIMEOUT_S = 15
-MAX_BODY_BYTES = 512 * 1024
+MAX_BODY_BYTES = 8 * 1024 * 1024
 
 # Where the CSV lists an IDE/explorer/docs URL rather than the actual GraphQL
 # API endpoint, substitute the real endpoint the IDE itself talks to. Recorded
 # in the 'endpoint_used' column for transparency.
 ENDPOINT_OVERRIDES = {
-    "01": "https://graphql.anilist.co",
-    "11": "https://api.digitransit.fi/routing/v2/finland/gtfs/v1",
-    "12": "https://portal.ehri-project.eu/api/graphql",
-    "15": "https://api.github.com/graphql",
-    "16": "https://gitlab.com/api/graphql",
-    "18": "https://hivdb.stanford.edu/graphql",
-    "19": "https://api.pipefy.com/graphql",
+    "001": "https://graphql.anilist.co",
+    "011": "https://api.digitransit.fi/routing/v2/finland/gtfs/v1",
+    "012": "https://portal.ehri-project.eu/api/graphql",
+    "015": "https://api.github.com/graphql",
+    "016": "https://gitlab.com/api/graphql",
+    "018": "https://hivdb.stanford.edu/graphql",
+    "019": "https://api.pipefy.com/graphql",
 }
 
 PROBE = json.dumps({

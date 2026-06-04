@@ -1,0 +1,1 @@
+{"errors":[{"message":"Field 'usr' doesn't exist on type 'Query' (Did you mean `user`?)","locations":[{"line":1,"column":3}],"path":["query","usr"],"extensions":{"code":"undefinedField","typeName":"Query","fieldName":"usr"}}]}

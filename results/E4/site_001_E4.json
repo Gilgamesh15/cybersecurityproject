@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"usr\" on type \"Query\". Did you mean \"User\"?","status":400,"locations":[{"line":1,"column":3}]}],"data":null}

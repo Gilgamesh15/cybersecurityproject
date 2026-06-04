@@ -1,21 +1,35 @@
 id,name,endpoint_used,csv_endpoint_overridden,http_status,verdict,ide_label,note
-01,AniList,https://graphql.anilist.co,yes,404,not_exposed,,http 404
-02,Bitquery,https://graphql.bitquery.io,no,200,EXPOSED,IDE-suggestive title ('graphql ide - blockchain data api'),matched: IDE-suggestive title ('graphql ide - blockchain data api')
-03,Braintree,https://payments.braintree-api.com/graphql,no,200,not_exposed,,http 200 non-html response (278 bytes)
-04,Canopy (Amazon),https://graphql.canopyapi.co/,no,200,EXPOSED,GraphiQL,matched: GraphiQL
-05,Catalysis Hub,http://api.catalysis-hub.org/graphql,no,200,EXPOSED,GraphiQL,matched: GraphiQL
-06,Chargetrip,https://playground.chargetrip.com/,no,200,EXPOSED,hosted IDE (SPA — JS-rendered; URL pattern playground.chargetrip.com/),"http 200 SPA shell, title='Loading...', URL declares IDE"
-07,EAN-Search,https://api.ean-search.org/graphql,no,200,EXPOSED,GraphiQL,matched: GraphiQL
-08,Contentful,https://graphql.contentful.com,no,200,not_exposed,,http 200 non-html response (115 bytes)
-09,Countries (trevorblades),https://countries.trevorblades.com,no,200,not_exposed,,"http 200 html page, no IDE fingerprint; title=''"
-10,TravelgateX,https://api.travelgatex.com/,no,200,EXPOSED,Altair,matched: Altair
-11,Digitransit HSL,https://api.digitransit.fi/routing/v2/finland/gtfs/v1,yes,404,not_exposed,,http 404
-12,EHRI,https://portal.ehri-project.eu/api/graphql,yes,200,not_exposed,,"http 200 html page, no IDE fingerprint; title='EHRI - GraphQL Documentation'"
-13,TCGdex,https://api.tcgdex.net/v2/graphql,no,200,EXPOSED,"GraphiQL, Ruru","matched: GraphiQL, Ruru"
-14,Memair,https://memair.com/graphql,no,404,not_exposed,,http 404
-15,GitHub,https://api.github.com/graphql,yes,403,auth_required,,http 403 before content
-16,GitLab,https://gitlab.com/api/graphql,yes,422,not_exposed,,http 422 non-html response (66 bytes)
-17,monday.com,https://api.monday.com/v2,no,401,auth_required,,http 401 before content
-18,HIVDB (Stanford),https://hivdb.stanford.edu/graphql,yes,405,not_exposed,,http 405
-19,Pipefy,https://api.pipefy.com/graphql,yes,200,not_exposed,,"http 200 html page, no IDE fingerprint; title='Sign in to pipefy'"
-20,Yelp,https://api.yelp.com/v3/graphql,no,404,not_exposed,,http 404
+001,AniList,https://graphql.anilist.co,yes,404,not_exposed,,http 404
+002,Bitquery,https://graphql.bitquery.io,no,200,EXPOSED,IDE-suggestive title ('graphql ide - blockchain data api'),matched: IDE-suggestive title ('graphql ide - blockchain data api')
+003,Braintree,https://payments.braintree-api.com/graphql,no,200,not_exposed,,http 200 non-html response (278 bytes)
+004,Canopy (Amazon),https://graphql.canopyapi.co/,no,200,EXPOSED,GraphiQL,matched: GraphiQL
+005,Catalysis Hub,http://api.catalysis-hub.org/graphql,no,200,EXPOSED,GraphiQL,matched: GraphiQL
+006,Chargetrip,https://playground.chargetrip.com/,no,200,EXPOSED,hosted IDE (SPA — JS-rendered; URL pattern playground.chargetrip.com/),"http 200 SPA shell, title='Loading...', URL declares IDE"
+007,EAN-Search,https://api.ean-search.org/graphql,no,0,unreachable,,<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+008,Contentful,https://graphql.contentful.com,no,200,not_exposed,,http 200 non-html response (115 bytes)
+009,Countries (trevorblades),https://countries.trevorblades.com,no,200,not_exposed,,"http 200 html page, no IDE fingerprint; title=''"
+010,TravelgateX,https://api.travelgatex.com/,no,200,EXPOSED,Altair,matched: Altair
+011,Digitransit HSL,https://api.digitransit.fi/routing/v2/finland/gtfs/v1,yes,404,not_exposed,,http 404
+012,EHRI,https://portal.ehri-project.eu/api/graphql,yes,200,not_exposed,,"http 200 html page, no IDE fingerprint; title='EHRI - GraphQL Documentation'"
+013,TCGdex,https://api.tcgdex.net/v2/graphql,no,200,EXPOSED,"GraphiQL, Ruru","matched: GraphiQL, Ruru"
+014,Memair,https://memair.com/graphql,no,530,not_exposed,,"http 530 html page, no IDE fingerprint; title='Cloudflare Tunnel error | memair.com | Cloudflare'"
+015,GitHub,https://api.github.com/graphql,yes,403,auth_required,,http 403 before content
+016,GitLab,https://gitlab.com/api/graphql,yes,422,not_exposed,,http 422 non-html response (66 bytes)
+017,monday.com,https://api.monday.com/v2,no,401,auth_required,,http 401 before content
+018,HIVDB (Stanford),https://hivdb.stanford.edu/graphql,yes,405,not_exposed,,http 405
+019,Pipefy,https://api.pipefy.com/graphql,yes,200,not_exposed,,"http 200 html page, no IDE fingerprint; title='Sign in to pipefy'"
+020,Yelp,https://api.yelp.com/v3/graphql,no,404,not_exposed,,http 404
+021,Barcelona Urban Mobility API,https://barcelona-urban-mobility-graphql-api.netlify.app/graphql,no,200,EXPOSED,GraphQL Playground,matched: GraphQL Playground
+022,The Rick and Morty API,https://rickandmortyapi.com/graphql,no,200,not_exposed,,"http 200 html page, no IDE fingerprint; title=''"
+023,u.gg,https://u.gg/api/graphql,no,400,not_exposed,,http 400 non-html response (53 bytes)
+024,velog.io,https://velog.io/graphql,no,400,not_exposed,,http 400 non-html response (18 bytes)
+025,coursera.org,https://coursera.org/graphql,no,400,not_exposed,,http 400 non-html response (148 bytes)
+026,eneba.com,https://eneba.com/graphql,no,400,not_exposed,,http 400 non-html response (94 bytes)
+027,lg.com,https://lg.com/api/graphql,no,500,not_exposed,,http 500 non-html response (129 bytes)
+028,id.jobstreet.com,https://id.jobstreet.com/graphql,no,400,not_exposed,,http 400 non-html response (186 bytes)
+029,photobucket.com,https://photobucket.com/api/graphql,no,400,not_exposed,,http 400 non-html response (385 bytes)
+030,salesforce.com,https://mobile.api.trailhead.com/graphql,no,404,not_exposed,,http 404
+031,surveymonkey.com,https://surveymonkey.com/graphql,no,400,not_exposed,,http 400 non-html response (227 bytes)
+032,xing.com,https://xing.com/graphql,no,400,not_exposed,,http 400 non-html response (68 bytes)
+033,jerry.ai,https://jerry.ai/graphql,no,400,not_exposed,,http 400 non-html response (98 bytes)
+034,netflix.com,https://netflix.com/graphql,no,400,not_exposed,,http 400 non-html response (184 bytes)

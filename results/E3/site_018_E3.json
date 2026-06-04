@@ -1,0 +1,16 @@
+{
+  "errors": [
+    {
+      "type": "ValidationError",
+      "message": "Validation error of type FieldUndefined: Field \u0027__nonexistent_field_xyz_diagnostic\u0027 in type \u0027Root\u0027 is undefined @ \u0027__nonexistent_field_xyz_diagnostic\u0027",
+      "locations": [
+        {
+          "line": 1,
+          "column": 3,
+          "sourceName": null
+        }
+      ]
+    }
+  ],
+  "data": null
+}

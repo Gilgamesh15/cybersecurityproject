@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5L4TK2");
+    </script>
+    <link
+      href="https://www.gartner.com/imagesrv/css/tech_common.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>File Not Found</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      rel="stylesheet"
+      href="https://www.gartner.com/imagesrv/css/vendor/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.gartner.com/imagesrv/css/vendor/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.gartner.com/imagesrv/css/gartstrap/gartstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.gartner.com/imagesrv/fonts/roboto-fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.gartner.com/imagesrv/error/css/main.css"
+    />
+    <script src="https://www.gartner.com/imagesrv/js/vendor/jquery-1.11.1.min.js"></script>
+  </head>
+  <body id="g1_body">
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5L4TK2"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <div class="container wrapper">
+      <div
+        class="navbar navbar-default"
+        style="position: relative; z-index: 4"
+        role="navigation"
+      >
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#gNavbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span
+              ><span class="icon-bar"></span><span class="icon-bar"></span
+              ><span class="icon-bar"></span></button
+            ><a
+              class="navbar-brand"
+              href="https://www.gartner.com/technology/home.jsp"
+              rel="home"
+              style="position: relative; z-index: 1"
+              ><img
+                src="https://www.gartner.com/imagesrv/images/gartner136.gif"
+                alt="Gartner"
+                style="max-width: 100px; margin-top: -7px"
+            /></a>
+          </div>
+          <div class="collapse navbar-collapse" id="gNavbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li>
+                <a href="https://www.gartner.com/technology/why_gartner.jsp"
+                  >WHY GARTNER</a
+                >
+              </li>
+              <li>
+                <a href="https://www.gartner.com/technology/analysts.jsp"
+                  >ANALYSTS</a
+                >
+              </li>
+              <li>
+                <a href="https://www.gartner.com/technology/research.jsp"
+                  >RESEARCH</a
+                >
+              </li>
+              <li><a href="https://www.gartner.com/events/">EVENTS</a></li>
+              <li>
+                <a href="https://www.gartner.com/technology/consulting/"
+                  >CONSULTING</a
+                >
+              </li>
+              <li>
+                <a href="https://www.gartner.com/technology/about.jsp">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row body-container">
+        <div class="col-sm-12 banner">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+              <span class="icon"></span>
+              <h1>File Not Found</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 feature">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+              <h2>We apologize for the inconvenience</h2>
+              <h3>
+                The page you were trying to reach cannot be found on
+                gartner.com.
+              </h3>
+            <p>Please double-check the address and try again, or <a
+								href="https://www.gartner.com/en/contact/technical-support"><u>Contact
+									Gartner Technical Support</u></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-md-10 navigation">
+              <div class="navigation-links">
+                <ul class="links">
+                  <li class="link">
+                    <a href="https://jobs.gartner.com/">Careers</a>
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a
+                      href="https://www.gartner.com/technology/contact/contact_gartner.jsp"
+                      >Contact</a
+                    >
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com//blogs.gartner.com/"
+                      >Gartner Blog Network</a
+                    >
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com/it-glossary/"
+                      >IT Glossary</a
+                    >
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com/newsroom/">Newsroom</a>
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com/reviews/home"
+                      >Peer Insights</a
+                    >
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a
+                      href="https://www.gartner.com/technology/about/policies/guidelines_ov.jsp"
+                      >Policies</a
+                    >
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com/privacy/">Privacy</a>
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com/technology/site-index.jsp"
+                      >Site Index</a
+                    >
+                  </li>
+                  <li class="divider">|</li>
+                  <li class="link">
+                    <a href="https://www.gartner.com/technology/webinars/"
+                      >Webinars</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="gartner-logo">
+                <a href="" rel="home"
+                  ><img
+                    src="https://www.gartner.com/imagesrv/images/g_logoWonB.gif"
+                    alt="Gartner"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright">
+                <p>
+                  &copy; <span id="date-year"></span> Gartner, Inc. and/or its
+                  Affiliates. All Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var today = new Date();
+      var year = today.getFullYear();
+      document.getElementById("date-year").innerHTML = year;
+    </script>
+    <script src="https://www.gartner.com/imagesrv/js/vendor/bootstrap.min.js"></script>
+    <script>
+        window.GartnerErrorConfig = {
+            clientIp: "195.128.172.146",
+            rayId: "a0658f2fc8b08174",
+            statusCode: 404
+        };
+    </script>
+    <script src="/assets/js/client_error_reporter.js" defer></script>
+  </body>
+</html>

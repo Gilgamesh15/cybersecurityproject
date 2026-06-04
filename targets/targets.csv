@@ -1,21 +1,35 @@
-id,name,category,endpoint_url
-01,AniList,Entertainment data,https://anilist.co/graphiql
-02,Bitquery,Blockchain analytics,https://graphql.bitquery.io
-03,Braintree,Payments,https://payments.braintree-api.com/graphql
-04,Canopy (Amazon),E-commerce data,https://graphql.canopyapi.co/
-05,Catalysis Hub,Scientific data,http://api.catalysis-hub.org/graphql
-06,Chargetrip,EV / mobility,https://playground.chargetrip.com/
-07,EAN-Search,Product data,https://api.ean-search.org/graphql
-08,Contentful,Headless CMS,https://graphql.contentful.com
-09,Countries (trevorblades),Public data,https://countries.trevorblades.com
-10,TravelgateX,Travel marketplace,https://api.travelgatex.com/
-11,Digitransit HSL,Transit,https://api.digitransit.fi/graphiql/finland
-12,EHRI,Archives / research,https://portal.ehri-project.eu/api/graphql/ui
-13,TCGdex,Pokémon TCG database,https://api.tcgdex.net/v2/graphql
-14,Memair,Quantified self,https://memair.com/graphql
-15,GitHub,Dev platform,https://docs.github.com/en/graphql
-16,GitLab,Dev platform,https://gitlab.com/-/graphql-explorer
-17,monday.com,Workflow ops,https://api.monday.com/v2
-18,HIVDB (Stanford),Medical research,https://hivdb.stanford.edu/page/graphiql/
-19,Pipefy,Workflow ops,https://app.pipefy.com/graphiql
-20,Yelp,Local-business reviews,https://api.yelp.com/v3/graphql
+id,name,category,endpoint_url,source,verification_evidence
+001,AniList,Entertainment data,https://anilist.co/graphiql,apis-guru,Phase-1 E1 (already classified)
+002,Bitquery,Blockchain analytics,https://graphql.bitquery.io,apis-guru,Phase-1 E1 (already classified)
+003,Braintree,Payments,https://payments.braintree-api.com/graphql,apis-guru,Phase-1 E1 (already classified)
+004,Canopy (Amazon),E-commerce data,https://graphql.canopyapi.co/,apis-guru,Phase-1 E1 (already classified)
+005,Catalysis Hub,Scientific data,http://api.catalysis-hub.org/graphql,apis-guru,Phase-1 E1 (already classified)
+006,Chargetrip,EV / mobility,https://playground.chargetrip.com/,apis-guru,Phase-1 E1 (already classified)
+007,EAN-Search,Product data,https://api.ean-search.org/graphql,apis-guru,Phase-1 E1 (already classified)
+008,Contentful,Headless CMS,https://graphql.contentful.com,apis-guru,Phase-1 E1 (already classified)
+009,Countries (trevorblades),Public data,https://countries.trevorblades.com,apis-guru,Phase-1 E1 (already classified)
+010,TravelgateX,Travel marketplace,https://api.travelgatex.com/,apis-guru,Phase-1 E1 (already classified)
+011,Digitransit HSL,Transit,https://api.digitransit.fi/graphiql/finland,apis-guru,Phase-1 E1 (already classified)
+012,EHRI,Archives / research,https://portal.ehri-project.eu/api/graphql/ui,apis-guru,Phase-1 E1 (already classified)
+013,TCGdex,Pokémon TCG database,https://api.tcgdex.net/v2/graphql,apis-guru,Phase-1 E1 (already classified)
+014,Memair,Quantified self,https://memair.com/graphql,apis-guru,Phase-1 E1 (already classified)
+015,GitHub,Dev platform,https://docs.github.com/en/graphql,apis-guru,Phase-1 E1 (already classified)
+016,GitLab,Dev platform,https://gitlab.com/-/graphql-explorer,apis-guru,Phase-1 E1 (already classified)
+017,monday.com,Workflow ops,https://api.monday.com/v2,apis-guru,Phase-1 E1 (already classified)
+018,HIVDB (Stanford),Medical research,https://hivdb.stanford.edu/page/graphiql/,apis-guru,Phase-1 E1 (already classified)
+019,Pipefy,Workflow ops,https://app.pipefy.com/graphiql,apis-guru,Phase-1 E1 (already classified)
+020,Yelp,Local-business reviews,https://api.yelp.com/v3/graphql,apis-guru,Phase-1 E1 (already classified)
+021,Barcelona Urban Mobility API,Information about the different public transport / urban mob,https://barcelona-urban-mobility-graphql-api.netlify.app/graphql,apis-guru,data.__typename = 'RootQuery'
+022,The Rick and Morty API,All the Rick and Morty information.,https://rickandmortyapi.com/graphql,apis-guru,data.__typename = 'Query'
+023,u.gg,,https://u.gg/api/graphql,user-list,deeper-pass: data.__typename = 'RootQueryType'
+024,velog.io,,https://velog.io/graphql,user-list,data.__typename = 'Query'
+025,coursera.org,,https://coursera.org/graphql,user-list,"reclassified: 'ge"":""GraphQL operations must contain a non-empty `query` or a `persistedQuery` extension."",""extensions"":{""co'"
+026,eneba.com,,https://eneba.com/graphql,user-list,errors[0].extensions.code = 'INTERNAL_SERVER_ERROR'
+027,lg.com,,https://lg.com/api/graphql,user-list,deeper-pass: errors[0].message ~ 'Syntax Error: Unexpected <EOF>'
+028,id.jobstreet.com,,https://id.jobstreet.com/graphql,user-list,data.__typename = 'Query'
+029,photobucket.com,,https://photobucket.com/api/graphql,user-list,deeper-pass: data.__typename = 'Query'
+030,salesforce.com,,https://mobile.api.trailhead.com/graphql,user-list,deeper-pass: html-discovered: data.__typename = 'Query'
+031,surveymonkey.com,,https://surveymonkey.com/graphql,user-list,data.__typename = 'Query'
+032,xing.com,,https://xing.com/graphql,user-list,reclassified: 'Visual GraphQL tools are not available in the production environment'
+033,jerry.ai,,https://jerry.ai/graphql,user-list,data.__typename = 'Query'
+034,netflix.com,,https://netflix.com/graphql,user-list,"reclassified: 'ge"":""Introspection is not allowed for this request""}],""data"":null}'"

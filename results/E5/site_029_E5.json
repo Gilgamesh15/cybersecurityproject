@@ -1,0 +1,1 @@
+{"errors":[{"message":"Invalid GraphQL request","extensions":{"details":"batching not enabled","code":"BATCHING_NOT_ENABLED"}}]}

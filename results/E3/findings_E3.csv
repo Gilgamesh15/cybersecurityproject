@@ -1,0 +1,35 @@
+id,name,endpoint_used,http_status,verdict,evidence
+001,AniList,https://graphql.anilist.co,400,generic,clean 'Cannot query field' message
+002,Bitquery,https://graphql.bitquery.io,401,auth_required,http 401
+003,Braintree,https://payments.braintree-api.com/graphql,200,errored,errors[]: Authentication credentials are missing. Authorization header is required and must contain a value.
+004,Canopy (Amazon),https://graphql.canopyapi.co/,401,auth_required,http 401
+005,Catalysis Hub,http://api.catalysis-hub.org/graphql,400,VERBOSE,SOURCE-LEAK: caret/snippet in message
+006,Chargetrip,https://playground.chargetrip.com/,403,auth_required,http 403
+007,EAN-Search,https://api.ean-search.org/graphql,402,errored,errors[]: Authorization failed
+008,Contentful,https://graphql.contentful.com,200,unknown,unrecognized shape
+009,Countries (trevorblades),https://countries.trevorblades.com,200,VERBOSE,FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+010,TravelgateX,https://api.travelgatex.com/,401,auth_required,http 401
+011,Digitransit HSL,https://api.digitransit.fi/routing/v2/finland/gtfs/v1,401,auth_required,http 401
+012,EHRI,https://portal.ehri-project.eu/api/graphql,400,VERBOSE,"FRAMEWORK: FieldUndefined | ""classification"":""V | Validation error (FieldUndefined@"
+013,TCGdex,https://api.tcgdex.net/v2/graphql,200,generic,clean 'Cannot query field' message
+014,Memair,https://memair.com/graphql,400,errored,"errors[]: No access token provided, please see docs.memair.com for more details"
+015,GitHub,https://api.github.com/graphql,403,auth_required,http 403
+016,GitLab,https://gitlab.com/api/graphql,200,VERBOSE,"FRAMEWORK: undefinedField ; SCHEMA-REVEAL: ""typeName"": | ""fieldName"": | ""path"":[""query"",""__nonexistent_field_xyz"
+017,monday.com,https://api.monday.com/v2,401,auth_required,http 401
+018,HIVDB (Stanford),https://hivdb.stanford.edu/graphql,400,VERBOSE,"FRAMEWORK: FieldUndefined | ""type"": ""ValidationError"" | Validation error of type ; SCHEMA-REVEAL: ""sourceName"":"
+019,Pipefy,https://api.pipefy.com/graphql,401,auth_required,http 401
+020,Yelp,https://api.yelp.com/v3/graphql,401,auth_required,http 401
+021,Barcelona Urban Mobility API,https://barcelona-urban-mobility-graphql-api.netlify.app/graphql,400,generic,clean 'Cannot query field' message
+022,The Rick and Morty API,https://rickandmortyapi.com/graphql,400,VERBOSE,FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+023,u.gg,https://u.gg/api/graphql,500,unknown,unrecognized shape
+024,velog.io,https://velog.io/graphql,400,VERBOSE,FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+025,coursera.org,https://coursera.org/graphql,400,errored,errors[]: GraphQL operations must contain a non-empty `query` or a `persistedQuery` extension.
+026,eneba.com,https://eneba.com/graphql,400,errored,errors[]: Internal Server Error
+027,lg.com,https://lg.com/api/graphql,500,errored,errors[]: Syntax Error: Unexpected <EOF>
+028,id.jobstreet.com,https://id.jobstreet.com/graphql,400,VERBOSE,FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+029,photobucket.com,https://photobucket.com/api/graphql,400,VERBOSE,FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+030,salesforce.com,https://mobile.api.trailhead.com/graphql,200,VERBOSE,"FRAMEWORK: undefinedField ; SCHEMA-REVEAL: ""typeName"": | ""fieldName"": | ""path"":[""query"",""__nonexistent_field_xyz"
+031,surveymonkey.com,https://surveymonkey.com/graphql,400,VERBOSE,FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+032,xing.com,https://xing.com/graphql,400,non_graphql,"http 400, body not JSON"
+033,jerry.ai,https://jerry.ai/graphql,400,generic,clean 'Cannot query field' message
+034,netflix.com,https://netflix.com/graphql,200,VERBOSE,"FRAMEWORK: FieldUndefined | ""classification"":""V | Validation error (FieldUndefined@"

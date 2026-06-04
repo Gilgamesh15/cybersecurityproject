@@ -1,0 +1,190 @@
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ5HHNDXEM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JJ5HHNDXEM');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Sveten AB" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <title>404 Page not found</title>
+
+    
+ 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <base href="https://mocki.io/" />
+    <link rel="canonical" href="https://mocki.io/404.htm" />
+    <meta name="theme-color" content="#563d7c" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <link href="/mocki.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container nav">
+        <a href="/"><img src="/mocki.svg" alt="mocki logo" class="logo"/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Use Cases</a>
+              <div class="nav-sub-item">
+                <a href="/mock-api-microservices">
+                  <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-cubes text-center d-inline-block align-middle nav-icon"></i>
+                      </div>
+                      <div class="col-10">
+                        <h5 class="mt-0 pt-0">Mock API for Microservices</h5>
+                        Create microservice mocks
+                      </div>
+                  
+                  </div>
+                </a>
+                <div class="spacer"></div>
+                <a href="/fake-json-api">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-theater-masks text-center d-inline-block align-middle nav-icon"></i>
+                    </div>
+                    <div class="col-10">
+                      <h5 class="mt-0 pt-0">Fake JSON API</h5>
+                      Create an API with fake JSON data
+                    </div>
+                  </div>
+                </a>
+                <div class="spacer"></div>
+                <a href="/graphql">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-project-diagram text-center d-inline-block align-middle nav-icon"></i>
+                    </div>
+                    <div class="col-10">
+                      <h5 class="mt-0 pt-0">GraphQL</h5>
+                      Mock your GraphQL API
+                    </div>
+                  </div>
+                </a>
+                <div class="spacer"></div>
+                <a href="/mock-http-server">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-network-wired text-center d-inline-block align-middle nav-icon"></i>
+                    </div>
+                    <div class="col-10">
+                      <h5 class="mt-0 pt-0">Mock HTTP Server</h5>
+                      Mock an HTTP server
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/docs">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+          </ul>
+          <a class="btn btn-light btn-signup" href="https://app.mocki.io"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
+    
+    <main class="container" style="min-height: 100vh">
+      
+<h1 class="text-center">Not found</h1>
+<p class="lead text-center">Oops, we couldn't find what you are looking for</p>
+</main>
+<footer class="container pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+        <div class="col-12 col-md">
+            <img class="mb-2" src="mocki.svg" alt="mocki logo" width="48" height="48">
+            <small class="d-block mb-3 text-muted">© 2020</small>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Blog</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="/service-virtualization-for-microservices">Service Virtualization for Microservices</a></li>
+                <li><a class="text-muted" href="/mock-api-for-testing">Mock API for Testing</a></li>
+                <li><a class="text-muted" href="/graphql-sweden">GraphQL Sweden Meetup</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Featured Pages</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="/docs#getting-started">Docs: Getting started</a></li>
+                <li><a class="text-muted" href="/docs#configuration">Docs: Configuration</a></li>
+                <li><a class="text-muted" href="/docs#deployment">Docs: Deployment</a></li>
+                <li><a class="text-muted" href="/tos">Terms of Service</a></li>
+                <li><a class="text-muted" href="/privacy">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>About</h5>
+            <p>Created with 🧡 by Sveten<br><br>
+            Want to get in touch with us? Use the chat in the bottom right to send us a message! 🚀</p>
+        </div>
+    </div>
+</footer>
+<script src="/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/js/popper.min.js" async></script>
+<script src="/js/bootstrap.min.js" async></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.navbar-toggler').on('click', function () {
+            $('.navbar-light').toggleClass('color-changed');
+            $('.nav').toggleClass('color-changed');
+        });
+    });
+</script>
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="c389c3a8-2450-46dd-867a-c982233ce6c0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<script src="/js/a46f34b304.js" crossorigin="anonymous" async></script>
+<link rel="stylesheet" href="/highlight.css">
+<script src="/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/editor.js" async></script>
+</body>

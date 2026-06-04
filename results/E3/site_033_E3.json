@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"__nonexistent_field_xyz_diagnostic\" on type \"Query\".","locations":[{"line":1,"column":3}],"isSessionError":false,"skipReporting":false}]}

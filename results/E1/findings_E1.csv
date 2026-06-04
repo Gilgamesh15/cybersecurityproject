@@ -1,21 +1,35 @@
-id,name,endpoint_used,csv_endpoint_overridden,http_status,verdict,evidence_of_graphql,types_count,note
-01,AniList,https://graphql.anilist.co,yes,200,ENABLED,A: full schema returned,196,types=196
-02,Bitquery,https://graphql.bitquery.io,no,401,auth_required,"C: host is graphql.bitquery.io subdomain; vendor docs at docs.bitquery.io confirm GraphQL",-1,http 401 with plain-text body referencing Authorization/X-API-KEY tokens
-03,Braintree,https://payments.braintree-api.com/graphql,no,200,auth_required,"B: GraphQL response envelope (data:null, errors:[{extensions.errorClass:AUTHENTICATION}])",-1,Authentication credentials are missing. Authorization header is required and must contain a value.
-04,Canopy (Amazon),https://graphql.canopyapi.co/,no,401,auth_required,"B: GraphQL response envelope (data:null, errors:[{extensions.code:UNAUTHENTICATED}])",-1,Missing one of the following headers: CANOPY-API-KEY / API-KEY / Authorization Bearer
-05,Catalysis Hub,http://api.catalysis-hub.org/graphql,no,200,ENABLED,A: full schema returned,65,types=65
-06,Chargetrip,https://playground.chargetrip.com/,no,403,auth_required,"C: APIs-guru listed; host serves Chargetrip GraphQL Playground; CloudFront 403 intercepted before backend",-1,HTML 403 from CloudFront ('The request could not be satisfied')
-07,EAN-Search,https://api.ean-search.org/graphql,no,402,auth_required,"B: GraphQL response envelope (data:null, errors:[{message:Authorization failed}])",-1,http 402 — payment-required tier
-08,Contentful,https://graphql.contentful.com,no,200,tenant_routing,"C: welcome page links to GraphQL docs; real API is /content/v1/spaces/{space_id} per-tenant",-1,"returns welcome page; real endpoint is /content/v1/spaces/{space_id} per-tenant with access token"
-09,Countries (trevorblades),https://countries.trevorblades.com,no,200,ENABLED,A: full schema returned,23,types=23
-10,TravelgateX,https://api.travelgatex.com/,no,401,auth_required,"B: GraphQL response envelope (data:null, errors:[{message:Missing authorization header}])",-1,http 401 with GraphQL-shaped error body
-11,Digitransit HSL,https://api.digitransit.fi/routing/v2/finland/gtfs/v1,yes,401,auth_required,"C: digitransit.fi documents the path as a GraphQL endpoint; Azure APIM gateway intercepted before GraphQL layer",-1,"http 401 with Azure APIM message: subscription key required"
-12,EHRI,https://portal.ehri-project.eu/api/graphql,yes,200,ENABLED,A: full schema returned,69,types=69
-13,TCGdex,https://api.tcgdex.net/v2/graphql,no,200,ENABLED,A: full schema returned,32,types=32
-14,Memair,https://memair.com/graphql,no,400,auth_required,"B: GraphQL-adjacent response envelope (data:{}, error:{message: 'No access token provided'}); URL path is /graphql",-1,"No access token provided, please see docs.memair.com for more details"
-15,GitHub,https://api.github.com/graphql,yes,403,auth_required,"C: api.github.com/graphql is the documented GitHub GraphQL API v4; anonymous request hit rate-limit before reaching GraphQL layer",-1,http 403 — anonymous rate-limit message pointing at docs.github.com
-16,GitLab,https://gitlab.com/api/graphql,yes,200,ENABLED,A: full schema returned,3879,types=3879 (7.2 MB response; initial scan truncated at 512 KB body cap)
-17,monday.com,https://api.monday.com/v2,no,401,auth_required,"B: GraphQL response envelope (errors:[{extensions.code:NOT_AUTHENTICATED}])",-1,http 401 with GraphQL-shaped error body
-18,HIVDB (Stanford),https://hivdb.stanford.edu/graphql,yes,200,ENABLED,A: full schema returned,80,types=80
-19,Pipefy,https://api.pipefy.com/graphql,yes,401,auth_required,"B: errors:[{title:Unauthorized,detail:...}] — JSON:API-style but errors-array envelope; URL path /graphql",-1,http 401 with errors-array body
-20,Yelp,https://api.yelp.com/v3/graphql,no,401,auth_required,"C: api.yelp.com/v3/graphql is Yelp's documented public GraphQL API; gateway returned TOKEN_MISSING before GraphQL layer",-1,"http 401, gateway error body {'error':{'code':'TOKEN_MISSING'}}"
+id,name,endpoint_used,csv_endpoint_overridden,http_status,verdict,types_count,note
+001,AniList,https://graphql.anilist.co,yes,200,ENABLED,196,types=196
+002,Bitquery,https://graphql.bitquery.io,no,401,auth_required,-1,http 401
+003,Braintree,https://payments.braintree-api.com/graphql,no,200,auth_required,-1,Authentication credentials are missing. Authorization header is required and must contain a value.
+004,Canopy (Amazon),https://graphql.canopyapi.co/,no,401,auth_required,-1,http 401
+005,Catalysis Hub,http://api.catalysis-hub.org/graphql,no,200,ENABLED,65,types=65
+006,Chargetrip,https://playground.chargetrip.com/,no,403,auth_required,-1,http 403
+007,EAN-Search,https://api.ean-search.org/graphql,no,402,auth_required,-1,http 402
+008,Contentful,https://graphql.contentful.com,no,200,unknown,-1,"http 200, unrecognized shape"
+009,Countries (trevorblades),https://countries.trevorblades.com,no,200,ENABLED,23,types=23
+010,TravelgateX,https://api.travelgatex.com/,no,401,auth_required,-1,http 401
+011,Digitransit HSL,https://api.digitransit.fi/routing/v2/finland/gtfs/v1,yes,401,auth_required,-1,http 401
+012,EHRI,https://portal.ehri-project.eu/api/graphql,yes,200,ENABLED,69,types=69
+013,TCGdex,https://api.tcgdex.net/v2/graphql,no,200,ENABLED,32,types=32
+014,Memair,https://memair.com/graphql,no,400,auth_required,-1,"No access token provided, please see docs.memair.com for more details"
+015,GitHub,https://api.github.com/graphql,yes,403,auth_required,-1,http 403
+016,GitLab,https://gitlab.com/api/graphql,yes,200,ENABLED,3884,types=3884
+017,monday.com,https://api.monday.com/v2,no,401,auth_required,-1,http 401
+018,HIVDB (Stanford),https://hivdb.stanford.edu/graphql,yes,200,ENABLED,80,types=80
+019,Pipefy,https://api.pipefy.com/graphql,yes,401,auth_required,-1,http 401
+020,Yelp,https://api.yelp.com/v3/graphql,no,401,auth_required,-1,http 401
+021,Barcelona Urban Mobility API,https://barcelona-urban-mobility-graphql-api.netlify.app/graphql,no,200,ENABLED,47,types=47
+022,The Rick and Morty API,https://rickandmortyapi.com/graphql,no,200,ENABLED,25,types=25
+023,u.gg,https://u.gg/api/graphql,no,200,ENABLED,175,types=175
+024,velog.io,https://velog.io/graphql,no,400,disabled,-1,"GraphQL introspection is not allowed by Apollo Server, but the query contained __schema or __type. To enable introspection, pass introspection: true to ApolloSe"
+025,coursera.org,https://coursera.org/graphql,no,400,errored,-1,GraphQL operations must contain a non-empty `query` or a `persistedQuery` extension.
+026,eneba.com,https://eneba.com/graphql,no,400,errored,-1,Internal Server Error
+027,lg.com,https://lg.com/api/graphql,no,500,errored,-1,Syntax Error: Unexpected <EOF>
+028,id.jobstreet.com,https://id.jobstreet.com/graphql,no,400,disabled,-1,"GraphQL introspection is not allowed by Apollo Server, but the query contained __schema or __type. To enable introspection, pass introspection: true to ApolloSe"
+029,photobucket.com,https://photobucket.com/api/graphql,no,200,disabled,-1,introspection has been disabled
+030,salesforce.com,https://mobile.api.trailhead.com/graphql,no,200,errored,-1,Field '__schema' doesn't exist on type 'Query'
+031,surveymonkey.com,https://surveymonkey.com/graphql,no,200,disabled,-1,introspection has been disabled
+032,xing.com,https://xing.com/graphql,no,400,parse_error,-1,"http 400, body not JSON (68 chars)"
+033,jerry.ai,https://jerry.ai/graphql,no,400,disabled,-1,"GraphQL introspection has been disabled, but the requested query contained the field ""__schema"". | GraphQL introspection has been disabled, but the requested qu"
+034,netflix.com,https://netflix.com/graphql,no,200,errored,-1,Invalid Query

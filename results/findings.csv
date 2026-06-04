@@ -1,0 +1,171 @@
+site_id,name,exploit,verdict,explanation
+001,AniList,E1,yes,introspection returned schema (196 types)
+001,AniList,E2,no,no GraphQL IDE served at this URL
+001,AniList,E3,no,server returned generic 'Cannot query field' with no leak
+001,AniList,E4,yes,server emitted 'Did you mean' hint: 'Did you mean' → 'User\\'
+001,AniList,E5,no,batching rejected: object response with errors[]: No query or mutation provided. Please v
+002,Bitquery,E1,no,auth gate intercepted before GraphQL layer could respond
+002,Bitquery,E2,yes,IDE exposed: IDE-suggestive title ('graphql ide - blockchain data api')
+002,Bitquery,E3,no,auth gate intercepted before GraphQL layer could respond
+002,Bitquery,E4,no,auth gate intercepted before GraphQL layer could respond
+002,Bitquery,E5,no,auth gate intercepted before GraphQL layer could respond
+003,Braintree,E1,no,auth gate intercepted before GraphQL layer could respond
+003,Braintree,E2,no,no GraphQL IDE served at this URL
+003,Braintree,E3,no,server returned non-vuln error: errors[]: Authentication credentials are missing. Authorization header is requir
+003,Braintree,E4,no,server returned non-vuln error: errors[]: Authentication credentials are missing. Authorization header is requir
+003,Braintree,E5,no,batching rejected: object response with errors[]: Authentication credentials are missing.
+004,Canopy (Amazon),E1,no,auth gate intercepted before GraphQL layer could respond
+004,Canopy (Amazon),E2,yes,IDE exposed: GraphiQL
+004,Canopy (Amazon),E3,no,auth gate intercepted before GraphQL layer could respond
+004,Canopy (Amazon),E4,no,auth gate intercepted before GraphQL layer could respond
+004,Canopy (Amazon),E5,no,auth gate intercepted before GraphQL layer could respond
+005,Catalysis Hub,E1,yes,introspection returned schema (65 types)
+005,Catalysis Hub,E2,yes,IDE exposed: GraphiQL
+005,Catalysis Hub,E3,yes,verbose error response: SOURCE-LEAK: caret/snippet in message
+005,Catalysis Hub,E4,yes,server emitted 'Did you mean' hint: 'Did you mean' → 'node'
+005,Catalysis Hub,E5,no,response body was not JSON (likely HTML or empty)
+006,Chargetrip,E1,no,auth gate intercepted before GraphQL layer could respond
+006,Chargetrip,E2,yes,IDE exposed: hosted IDE (SPA — JS-rendered; URL pattern playground.chargetrip.com/)
+006,Chargetrip,E3,no,auth gate intercepted before GraphQL layer could respond
+006,Chargetrip,E4,no,auth gate intercepted before GraphQL layer could respond
+006,Chargetrip,E5,no,auth gate intercepted before GraphQL layer could respond
+007,EAN-Search,E1,no,auth gate intercepted before GraphQL layer could respond
+007,EAN-Search,E2,no,host unreachable (DNS / TLS / connection error)
+007,EAN-Search,E3,no,server returned non-vuln error: errors[]: Authorization failed
+007,EAN-Search,E4,no,server returned non-vuln error: errors[]: Authorization failed
+007,EAN-Search,E5,no,batching rejected: object response with errors[]: Invalid request
+008,Contentful,E1,no,response did not match any known vulnerability or safe pattern
+008,Contentful,E2,no,no GraphQL IDE served at this URL
+008,Contentful,E3,no,response did not match any known vulnerability or safe pattern
+008,Contentful,E4,no,response did not match any known vulnerability or safe pattern
+008,Contentful,E5,no,response did not match any known vulnerability or safe pattern
+009,Countries (trevorblades),E1,yes,introspection returned schema (23 types)
+009,Countries (trevorblades),E2,no,no GraphQL IDE served at this URL
+009,Countries (trevorblades),E3,yes,verbose error response: FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+009,Countries (trevorblades),E4,no,server returned generic 'Cannot query field' with no leak
+009,Countries (trevorblades),E5,no,batching rejected: batching rejected: The request did not contain a valid GraphQL request
+010,TravelgateX,E1,no,auth gate intercepted before GraphQL layer could respond
+010,TravelgateX,E2,yes,IDE exposed: Altair
+010,TravelgateX,E3,no,auth gate intercepted before GraphQL layer could respond
+010,TravelgateX,E4,no,auth gate intercepted before GraphQL layer could respond
+010,TravelgateX,E5,no,auth gate intercepted before GraphQL layer could respond
+011,Digitransit HSL,E1,no,auth gate intercepted before GraphQL layer could respond
+011,Digitransit HSL,E2,no,no GraphQL IDE served at this URL
+011,Digitransit HSL,E3,no,auth gate intercepted before GraphQL layer could respond
+011,Digitransit HSL,E4,no,auth gate intercepted before GraphQL layer could respond
+011,Digitransit HSL,E5,no,auth gate intercepted before GraphQL layer could respond
+012,EHRI,E1,yes,introspection returned schema (69 types)
+012,EHRI,E2,no,no GraphQL IDE served at this URL
+012,EHRI,E3,yes,"verbose error response: FRAMEWORK: FieldUndefined | ""classification"":""V | Validation error (FieldUndefined@"
+012,EHRI,E4,no,server returned non-vuln error: errors[]: Validation error (FieldUndefined@[produkt]) : Field 'produkt' in type 
+012,EHRI,E5,no,batching rejected: object response with errors[]: Cannot deserialize value of type `eu.eh
+013,TCGdex,E1,yes,introspection returned schema (32 types)
+013,TCGdex,E2,yes,"IDE exposed: GraphiQL, Ruru"
+013,TCGdex,E3,no,server returned generic 'Cannot query field' with no leak
+013,TCGdex,E4,yes,server emitted 'Did you mean' hint: 'Did you mean' → 'serie\\'
+013,TCGdex,E5,no,batching rejected: object response with errors[]: Missing query
+014,Memair,E1,no,auth gate intercepted before GraphQL layer could respond
+014,Memair,E2,no,no GraphQL IDE served at this URL
+014,Memair,E3,no,"server returned non-vuln error: errors[]: No access token provided, please see docs.memair.com for more details"
+014,Memair,E4,no,"server returned non-vuln error: errors[]: No access token provided, please see docs.memair.com for more details"
+014,Memair,E5,no,"batching rejected: object response with errors[]: No access token provided, please see do"
+015,GitHub,E1,no,auth gate intercepted before GraphQL layer could respond
+015,GitHub,E2,no,auth gate intercepted before GraphQL layer could respond
+015,GitHub,E3,no,auth gate intercepted before GraphQL layer could respond
+015,GitHub,E4,no,auth gate intercepted before GraphQL layer could respond
+015,GitHub,E5,no,auth gate intercepted before GraphQL layer could respond
+016,GitLab,E1,yes,introspection returned schema (3884 types)
+016,GitLab,E2,no,no GraphQL IDE served at this URL
+016,GitLab,E3,yes,"verbose error response: FRAMEWORK: undefinedField ; SCHEMA-REVEAL: ""typeName"": | ""fieldName"": | ""path"":[""query"",""_"
+016,GitLab,E4,yes,"server emitted 'Did you mean' hint: 'Did you mean' → ','"
+016,GitLab,E5,yes,server accepted array batch envelope: array response with data.__typename='Query'
+017,monday.com,E1,no,auth gate intercepted before GraphQL layer could respond
+017,monday.com,E2,no,auth gate intercepted before GraphQL layer could respond
+017,monday.com,E3,no,auth gate intercepted before GraphQL layer could respond
+017,monday.com,E4,no,auth gate intercepted before GraphQL layer could respond
+017,monday.com,E5,no,auth gate intercepted before GraphQL layer could respond
+018,HIVDB (Stanford),E1,yes,introspection returned schema (80 types)
+018,HIVDB (Stanford),E2,no,no GraphQL IDE served at this URL
+018,HIVDB (Stanford),E3,yes,"verbose error response: FRAMEWORK: FieldUndefined | ""type"": ""ValidationError"" | Validation error of type ; SCHEMA-"
+018,HIVDB (Stanford),E4,no,server returned non-vuln error: errors[]: Validation error of type FieldUndefined: Field 'produkt' in type 'Root
+018,HIVDB (Stanford),E5,no,response body was not JSON (likely HTML or empty)
+019,Pipefy,E1,no,auth gate intercepted before GraphQL layer could respond
+019,Pipefy,E2,no,no GraphQL IDE served at this URL
+019,Pipefy,E3,no,auth gate intercepted before GraphQL layer could respond
+019,Pipefy,E4,no,auth gate intercepted before GraphQL layer could respond
+019,Pipefy,E5,no,auth gate intercepted before GraphQL layer could respond
+020,Yelp,E1,no,auth gate intercepted before GraphQL layer could respond
+020,Yelp,E2,no,no GraphQL IDE served at this URL
+020,Yelp,E3,no,auth gate intercepted before GraphQL layer could respond
+020,Yelp,E4,no,auth gate intercepted before GraphQL layer could respond
+020,Yelp,E5,no,auth gate intercepted before GraphQL layer could respond
+021,Barcelona Urban Mobility API,E1,yes,introspection returned schema (47 types)
+021,Barcelona Urban Mobility API,E2,yes,IDE exposed: GraphQL Playground
+021,Barcelona Urban Mobility API,E3,no,server returned generic 'Cannot query field' with no leak
+021,Barcelona Urban Mobility API,E4,no,server returned generic 'Cannot query field' with no leak
+021,Barcelona Urban Mobility API,E5,yes,server accepted array batch envelope: array response with data.__typename='RootQuery'
+022,The Rick and Morty API,E1,yes,introspection returned schema (25 types)
+022,The Rick and Morty API,E2,no,no GraphQL IDE served at this URL
+022,The Rick and Morty API,E3,yes,verbose error response: FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+022,The Rick and Morty API,E4,no,server returned generic 'Cannot query field' with no leak
+022,The Rick and Morty API,E5,no,batching rejected: batching rejected: The request did not contain a valid GraphQL request
+023,u.gg,E1,yes,introspection returned schema (175 types)
+023,u.gg,E2,no,no GraphQL IDE served at this URL
+023,u.gg,E3,no,response did not match any known vulnerability or safe pattern
+023,u.gg,E4,yes,server emitted 'Did you mean' hint: 'Did you mean' → 'upsertMarvelRivalsContact\\'
+023,u.gg,E5,yes,server accepted array batch envelope: top-level JSON array (len=1)
+024,velog.io,E1,no,"introspection explicitly disabled: GraphQL introspection is not allowed by Apollo Server, but the query c"
+024,velog.io,E2,no,no GraphQL IDE served at this URL
+024,velog.io,E3,yes,verbose error response: FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+024,velog.io,E4,yes,server emitted 'Did you mean' hint: 'Did you mean' → 'user\\'
+024,velog.io,E5,yes,server accepted array batch envelope: array response with data.__typename='Query'
+025,coursera.org,E1,no,server returned non-vuln error: GraphQL operations must contain a non-empty `query` or a `persistedQuery` extens
+025,coursera.org,E2,no,no GraphQL IDE served at this URL
+025,coursera.org,E3,no,server returned non-vuln error: errors[]: GraphQL operations must contain a non-empty `query` or a `persistedQue
+025,coursera.org,E4,no,server returned non-vuln error: errors[]: GraphQL operations must contain a non-empty `query` or a `persistedQue
+025,coursera.org,E5,no,batching rejected: object response with errors[]: GraphQL operations must contain a non-e
+026,eneba.com,E1,no,server returned non-vuln error: Internal Server Error
+026,eneba.com,E2,no,no GraphQL IDE served at this URL
+026,eneba.com,E3,no,server returned non-vuln error: errors[]: Internal Server Error
+026,eneba.com,E4,no,server returned non-vuln error: errors[]: Internal Server Error
+026,eneba.com,E5,no,batching rejected: object response with errors[]: Internal Server Error
+027,lg.com,E1,no,server returned non-vuln error: Syntax Error: Unexpected <EOF>
+027,lg.com,E2,no,no GraphQL IDE served at this URL
+027,lg.com,E3,no,server returned non-vuln error: errors[]: Syntax Error: Unexpected <EOF>
+027,lg.com,E4,no,server returned non-vuln error: errors[]: Syntax Error: Unexpected <EOF>
+027,lg.com,E5,no,batching rejected: object response with errors[]: Syntax Error: Unexpected <EOF>
+028,id.jobstreet.com,E1,no,"introspection explicitly disabled: GraphQL introspection is not allowed by Apollo Server, but the query c"
+028,id.jobstreet.com,E2,no,no GraphQL IDE served at this URL
+028,id.jobstreet.com,E3,yes,verbose error response: FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+028,id.jobstreet.com,E4,no,server returned generic 'Cannot query field' with no leak
+028,id.jobstreet.com,E5,yes,server accepted array batch envelope: array response with data.__typename='Query'
+029,photobucket.com,E1,no,introspection explicitly disabled: introspection has been disabled
+029,photobucket.com,E2,no,no GraphQL IDE served at this URL
+029,photobucket.com,E3,yes,verbose error response: FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+029,photobucket.com,E4,no,server returned generic 'Cannot query field' with no leak
+029,photobucket.com,E5,no,batching rejected: object response with errors[]: Invalid GraphQL request
+030,salesforce.com,E1,no,server returned non-vuln error: Field '__schema' doesn't exist on type 'Query'
+030,salesforce.com,E2,no,no GraphQL IDE served at this URL
+030,salesforce.com,E3,yes,"verbose error response: FRAMEWORK: undefinedField ; SCHEMA-REVEAL: ""typeName"": | ""fieldName"": | ""path"":[""query"",""_"
+030,salesforce.com,E4,no,server returned non-vuln error: errors[]: Field 'produkt' doesn't exist on type 'Query'
+030,salesforce.com,E5,no,batching rejected: object response with errors[]: No query string was present
+031,surveymonkey.com,E1,no,introspection explicitly disabled: introspection has been disabled
+031,surveymonkey.com,E2,no,no GraphQL IDE served at this URL
+031,surveymonkey.com,E3,yes,verbose error response: FRAMEWORK: GRAPHQL_VALIDATION_FAILED
+031,surveymonkey.com,E4,no,server returned generic 'Cannot query field' with no leak
+031,surveymonkey.com,E5,yes,server accepted array batch envelope: array response with data.__typename='Query'
+032,xing.com,E1,no,response body could not be parsed as JSON
+032,xing.com,E2,no,no GraphQL IDE served at this URL
+032,xing.com,E3,no,response body was not JSON (likely HTML or empty)
+032,xing.com,E4,no,response body was not JSON (likely HTML or empty)
+032,xing.com,E5,no,response body was not JSON (likely HTML or empty)
+033,jerry.ai,E1,no,"introspection explicitly disabled: GraphQL introspection has been disabled, but the requested query conta"
+033,jerry.ai,E2,no,no GraphQL IDE served at this URL
+033,jerry.ai,E3,no,server returned generic 'Cannot query field' with no leak
+033,jerry.ai,E4,yes,server emitted 'Did you mean' hint: 'Did you mean' → 'node\\'
+033,jerry.ai,E5,yes,server accepted array batch envelope: array response with data.__typename='Query'
+034,netflix.com,E1,no,server returned non-vuln error: Invalid Query
+034,netflix.com,E2,no,no GraphQL IDE served at this URL
+034,netflix.com,E3,yes,"verbose error response: FRAMEWORK: FieldUndefined | ""classification"":""V | Validation error (FieldUndefined@"
+034,netflix.com,E4,no,server returned non-vuln error: errors[]: Validation error (FieldUndefined@[produkt]) : Field 'produkt' in type 
+034,netflix.com,E5,no,batching rejected: object response with errors[]: An exception occurred

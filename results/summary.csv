@@ -1,0 +1,6 @@
+exploit,name,n_sites,vulnerable_count,safe_count,pct_vulnerable
+E1,Introspection enabled,34,10,24,29.4%
+E2,GraphQL IDE exposed,34,7,27,20.6%
+E3,Verbose errors / stack-trace,34,12,22,35.3%
+E4,Field-suggestion hints,34,7,27,20.6%
+E5,Query batching accepted,34,7,27,20.6%

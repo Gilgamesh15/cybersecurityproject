@@ -1,0 +1,1 @@
+{"errors":[{"message":"Validation error (FieldUndefined@[__nonexistent_field_xyz_diagnostic]) : Field '__nonexistent_field_xyz_diagnostic' in type 'Query' is undefined","locations":[{"line":1,"column":3}],"extensions":{"classification":"ValidationError"}}],"data":null}

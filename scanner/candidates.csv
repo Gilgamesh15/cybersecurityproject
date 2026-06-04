@@ -1,0 +1,134 @@
+candidate_id,name,source,probe_url,category
+C001,Buildkite,apis-guru,https://graphql.buildkite.com/,Continuous integration and deployments
+C002,CommerceTools,apis-guru,https://impex.commercetools.com/graphiql,e-commerce solutions
+C003,Deutsche Bahn,apis-guru,https://bahnql.herokuapp.com/graphql,Infrastructure Data; like realtime facility status; stations
+C004,FaunaDB,apis-guru,https://fauna.com/blog/try-faunadbs-graphql-api,Serverless GraphQL Database
+C005,Gdom,apis-guru,http://gdom.graphene-python.org/graphql,DOM Traversing and Scraping using GraphQL
+C006,GraphLoc,apis-guru,https://graphloc.com,Find a geolocation of an IP address including latitude; long
+C007,GraphQL Jobs,apis-guru,https://api.graphql.jobs,GraphQL jobs in modern startups
+C008,Idobata,apis-guru,https://idobata.io/api,Dedicated chat for team development.
+C009,melodyRepo,apis-guru,https://melody.sh/play/,Fast and reliable dependency manager for Go
+C010,React Finland,apis-guru,https://api.react-finland.fi/graphql,React Finland API is built with conferences and meetups in m
+C011,Saleor,apis-guru,https://demo.saleor.io/graphql/,Headless open-source E-commerce API for storefront and admin
+C012,Shopify Storefront,apis-guru,https://help.shopify.com/api/storefront-graphiql,The Storefront API gives you full creative control to build 
+C013,Shopify Admin,apis-guru,https://shopify-graphiql-app.shopifycloud.com/login,The Admin API is the primary way that apps and services inte
+C014,SWOP,apis-guru,https://swop.cx/,GraphQL and REST foreign exchange rate API. Note: Required r
+C015,Universe,apis-guru,https://www.universe.com/graphiql,Check what your friends are doing & find unique events near 
+C016,Barcelona Urban Mobility API,apis-guru,https://barcelona-urban-mobility-graphql-api.netlify.app/graphql,Information about the different public transport / urban mob
+C017,Câmara dos deputados Brasil,apis-guru,https://graphql-camara-deputados.herokuapp.com/,"""GraphQL api to grab the data from the brazilian deputies ch"
+C018,Ghibliql,apis-guru,https://ghibliql.herokuapp.com/,"""GhibliQL is a GraphQL wrapper to the Studio Ghibli REST API"
+C019,Favware's GraphQL Pokémon,apis-guru,https://graphqlpokemon.favware.tech,Query for all the Pokémon; and their abilities; moves; items
+C020,MetaMate,apis-guru,https://metamate.io/blog/most-advanced-hackernews-api/,Semantic service bus example for HackerNews
+C021,PokeAPI,apis-guru,https://pokeapi-graphiql.herokuapp.com/,Pokémon Data API
+C022,Spacex Land,apis-guru,https://api.spacex.land/graphql/,A non official platform for SpaceX's data!
+C023,Spotify,apis-guru,https://spotify-api-graphql-console.herokuapp.com/,Spotify gives you instant access to millions of songs - from
+C024,Stratz,apis-guru,https://api.stratz.com/graphiql/,Dota 2 Statistics Api
+C025,SWAPI,apis-guru,https://graphql.org/swapi-graphql/,Star Wars API
+C026,Star-Wars-Api,apis-guru,https://swapi.skyra.pw,A fully fledged Star Wars API. Using mostly the same data so
+C027,TMDB,apis-guru,https://tmdb.apps.quintero.io/,The Movie Database Wrapper
+C028,A-Maze,apis-guru,https://maze.andreamazzarella.com/graphiql,[Enter the maze](https://maze.andreamazzarella.com); try to 
+C029,Demotivational Quotes API,apis-guru,https://demotivation-quotes-api.herokuapp.com/graphql,Get Random Demotivational quote and its author
+C030,Lucas Bento's GraphQL Pokémon,apis-guru,https://react-relay-pokemon.now.sh/#/,Get information of a Pokémon with GraphQL! (**Note**: Only h
+C031,MongoDB TODO-List,apis-guru,https://todo-mongo-graphql-server.herokuapp.com/,TODO List using GraphQL and MongoDb
+C032,Planets,apis-guru,https://pristine-gadget-267405.appspot.com/graphql/,Information about planets and exoplanets; including mass; ra
+C033,Spotify GraphQL Server,apis-guru,https://spotify-graphql-server.herokuapp.com/,This demonstrates how to build a GraphQL server which fetche
+C034,Three.js demo,apis-guru,https://jwerle.github.io/three.graphql/,Declare a Three.js program with GraphQL
+C035,UFC GraphQL Server,apis-guru,https://graphql-ufc-api.now.sh/,Public UFC API turned into a GraphQL server. It's hosted by 
+C036,Google directions API,apis-guru,https://directions-graphql.herokuapp.com/graphql,GraphQL wrapper for google directions API.
+C037,FakeQL,apis-guru,https://fakeql.com/,GraphQL API mocking as a service.
+C038,The Rick and Morty API,apis-guru,https://rickandmortyapi.com/graphql,All the Rick and Morty information.
+C039,UN SDG data series API,apis-guru,http://linkedsdg.apps.officialstatistics.org/graphql/,UN SDG statistical data served via GraphQL as JSON-LD object
+C040,Weather API,apis-guru,https://graphql-weather-api.herokuapp.com/,Retrieve the current weather for any given city
+C041,Fake GraphQL API,apis-guru,https://mocki.io/graphql,Mock user and to do data
+C042,Fruits API,apis-guru,https://fruits-api.netlify.app/graphql,Information of fruit trees of the world
+C043,app.clickup.com,user-list,https://app.clickup.com/graphql,
+C044,app.hubspot.com,user-list,https://app.hubspot.com/graphql,
+C045,app-na2.hubspot.com,user-list,https://app-na2.hubspot.com/graphql,
+C046,expedia.com,user-list,https://expedia.com/graphql,
+C047,u.gg,user-list,https://u.gg/graphql,
+C048,lowes.com,user-list,https://lowes.com/graphql,
+C049,infosecwriteups.com,user-list,https://infosecwriteups.com/graphql,
+C050,velog.io,user-list,https://velog.io/graphql,
+C051,app.welcometothejungle.com,user-list,https://app.welcometothejungle.com/graphql,
+C052,isc2.org,user-list,https://isc2.org/graphql,
+C053,medium.com,user-list,https://medium.com/graphql,
+C054,loom.com,user-list,https://loom.com/graphql,
+C055,coursera.org,user-list,https://coursera.org/graphql,
+C056,account.godaddy.com,user-list,https://account.godaddy.com/graphql,
+C057,tokopedia.com,user-list,https://tokopedia.com/graphql,
+C058,homedepot.com,user-list,https://homedepot.com/graphql,
+C059,admin.typeform.com,user-list,https://admin.typeform.com/graphql,
+C060,afisha.yandex.ru,user-list,https://afisha.yandex.ru/graphql,
+C061,eneba.com,user-list,https://eneba.com/graphql,
+C062,lg.com,user-list,https://lg.com/graphql,
+C063,blog.stackademic.com,user-list,https://blog.stackademic.com/graphql,
+C064,id.jobstreet.com,user-list,https://id.jobstreet.com/graphql,
+C065,justwatch.com,user-list,https://justwatch.com/graphql,
+C066,vrbo.com,user-list,https://vrbo.com/graphql,
+C067,thumbtack.com,user-list,https://thumbtack.com/graphql,
+C068,adobe.com,user-list,https://adobe.com/graphql,
+C069,apple.com,user-list,https://apple.com/graphql,
+C070,bbc.co.uk,user-list,https://bbc.co.uk/graphql,
+C071,bloomberg.com,user-list,https://bloomberg.com/graphql,
+C072,booking.com,user-list,https://booking.com/graphql,
+C073,calendly.com,user-list,https://calendly.com/graphql,
+C074,cisco.com,user-list,https://cisco.com/graphql,
+C075,cnn.com,user-list,https://cnn.com/graphql,
+C076,dailymail.co.uk,user-list,https://dailymail.co.uk/graphql,
+C077,dailymotion.com,user-list,https://dailymotion.com/graphql,
+C078,digitalocean.com,user-list,https://digitalocean.com/graphql,
+C079,dropbox.com,user-list,https://dropbox.com/graphql,
+C080,etsy.com,user-list,https://etsy.com/graphql,
+C081,eventbrite.com,user-list,https://eventbrite.com/graphql,
+C082,ft.com,user-list,https://ft.com/graphql,
+C083,gartner.com,user-list,https://gartner.com/graphql,
+C084,google.com,user-list,https://google.com/graphql,
+C085,houzz.com,user-list,https://houzz.com/graphql,
+C086,ibm.com,user-list,https://ibm.com/graphql,
+C087,jd.com,user-list,https://jd.com/graphql,
+C088,kickstarter.com,user-list,https://kickstarter.com/graphql,
+C089,linkedin.com,user-list,https://linkedin.com/graphql,
+C090,marriott.com,user-list,https://marriott.com/graphql,
+C091,nbcnews.com,user-list,https://nbcnews.com/graphql,
+C092,networksolutions.com,user-list,https://networksolutions.com/graphql,
+C093,nytimes.com,user-list,https://nytimes.com/graphql,
+C094,parallels.com,user-list,https://parallels.com/graphql,
+C095,patreon.com,user-list,https://patreon.com/graphql,
+C096,paypal.com,user-list,https://paypal.com/graphql,
+C097,photobucket.com,user-list,https://photobucket.com/graphql,
+C098,pinterest.com,user-list,https://pinterest.com/graphql,
+C099,quora.com,user-list,https://quora.com/graphql,
+C100,researchgate.net,user-list,https://researchgate.net/graphql,
+C101,salesforce.com,user-list,https://salesforce.com/graphql,
+C102,shopify.com,user-list,https://shopify.com/graphql,
+C103,soundcloud.com,user-list,https://soundcloud.com/graphql,
+C104,stripe.com,user-list,https://stripe.com/graphql,
+C105,surveymonkey.com,user-list,https://surveymonkey.com/graphql,
+C106,theatlantic.com,user-list,https://theatlantic.com/graphql,
+C107,time.com,user-list,https://time.com/graphql,
+C108,tripadvisor.com,user-list,https://tripadvisor.com/graphql,
+C109,wix.com,user-list,https://wix.com/graphql,
+C110,wsj.com,user-list,https://wsj.com/graphql,
+C111,xing.com,user-list,https://xing.com/graphql,
+C112,zendesk.com,user-list,https://zendesk.com/graphql,
+C113,zoom.us,user-list,https://zoom.us/graphql,
+C114,epam.com,user-list,https://epam.com/graphql,
+C115,dice.at,user-list,https://dice.at/graphql,
+C116,walmart.com,user-list,https://walmart.com/graphql,
+C117,jpmorganchase.com,user-list,https://jpmorganchase.com/graphql,
+C118,deloitte.com,user-list,https://deloitte.com/graphql,
+C119,ebayinc.com,user-list,https://ebayinc.com/graphql,
+C120,jerry.ai,user-list,https://jerry.ai/graphql,
+C121,netflix.com,user-list,https://netflix.com/graphql,
+C122,wayfair.com,user-list,https://wayfair.com/graphql,
+C123,fidelitycareers.com,user-list,https://fidelitycareers.com/graphql,
+C124,cognizant.com,user-list,https://cognizant.com/graphql,
+C125,tcs.com,user-list,https://tcs.com/graphql,
+C126,mercor.com,user-list,https://mercor.com/graphql,
+C127,virtusa.com,user-list,https://virtusa.com/graphql,
+C128,cgi.com,user-list,https://cgi.com/graphql,
+C129,ciandt.com,user-list,https://ciandt.com/graphql,
+C130,atlassian.com,user-list,https://atlassian.com/graphql,
+C131,americanexpress.com,user-list,https://americanexpress.com/graphql,
+C132,optum.com,user-list,https://optum.com/graphql,
+C133,photon.com,user-list,https://photon.com/graphql,

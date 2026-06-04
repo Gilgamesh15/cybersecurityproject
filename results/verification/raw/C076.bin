@@ -1,0 +1,761 @@
+<!DOCTYPE html><html><head><script type="text/javascript">
+try {
+  Object.defineProperty(window, 'adverts', {configurable: false, value:{}});
+}
+catch(error) {
+  console.error(error);
+}
+</script><link href="/favicon.ico?v=2" rel="icon" /><link href="/static/icons/32.png" rel="icon" sizes="32x32" type="image/png" /><link href="/static/icons/48.png" rel="icon" sizes="48x48" type="image/png" /><link href="/static/icons/96.png" rel="icon" sizes="96x96" type="image/png" /><link href="/static/icons/192.png" rel="icon" sizes="192x192" type="image/png" /><link href="/static/icons/180.png" rel="apple-touch-icon" sizes="180x180" type="image/png" /><title>UK Home | Daily Mail Online</title><link href='//i.dailymail.com' rel='dns-prefetch'>
+<link href='//video.dailymail.com' rel='dns-prefetch'>
+<link href='//scripts.dailymail.com' rel='dns-prefetch'>
+<link href='//ted.dailymail.com' rel='dns-prefetch'>
+<link href='//t.dailymail.com' rel='dns-prefetch'>
+<link href='//i.mol.im/' rel='dns-prefetch'>
+<link href='//i.dailymail.com' rel='preconnect'>
+<link href='//video.dailymail.com' rel='preconnect'>
+<link href='//scripts.dailymail.com' rel='preconnect'>
+<link href='//ted.dailymail.com' rel='preconnect'>
+<link href='//t.dailymail.com' rel='preconnect'>
+<link href='//i.mol.im/' rel='preconnect'>
+<link href='//securepubads.g.doubleclick.net' rel='preconnect'>
+<!--esi
+<esi:assign name="device" value="other"/>
+<esi:choose>
+	<esi:when test="$(HTTP_USER_AGENT) matches_i '''windows phone'''"><esi:assign name="device" value="windowsMobile"/></esi:when>
+	<esi:when test="$(HTTP_USER_AGENT) matches_i '''iPhone'''"><esi:assign name="device" value="iphone"/></esi:when>
+	<esi:when test="$(HTTP_USER_AGENT) matches_i '''iPad'''"><esi:assign name="device" value="ipad"/></esi:when>
+	<esi:when test="$(HTTP_USER_AGENT) matches_i '''Silk|Kindle'''"><esi:assign name="device" value="androidTablet"/></esi:when>
+	<esi:when test="$(HTTP_USER_AGENT) matches_i '''Android'''">
+		<esi:choose>
+			<esi:when test="$(HTTP_USER_AGENT) matches_i '''Mobile'''"><esi:assign name="device" value="androidMobile"/></esi:when>
+			<esi:otherwise><esi:assign name="device" value="androidTablet"/></esi:otherwise>
+		</esi:choose>
+	</esi:when>
+</esi:choose>
+
+	<esi:assign name="ads_position_base_url" value="'v8'" />
+
+<esi:assign name="ads_position_base_url" value="$(ads_position_base_url) + '/' + $lower($(GEO{'country_code'})) + '/home/none/channel/' + $(device) + ''" />
+
+<esi:choose>
+	<esi:when test="$(HTTP_COOKIE{'mol-ads-control-panel-cluster'})">
+		<esi:assign name="ads_position_base_url" value="'https://rules-' + $(HTTP_COOKIE{'mol-ads-control-panel-cluster'}) + '-cm.ads.dailymail.com/' + $(ads_position_base_url)" />
+	</esi:when>
+	<esi:otherwise>
+		<esi:assign name="ads_position_base_url" value="'https://mads.dailymail.co.uk/' + $(ads_position_base_url)" />
+  </esi:otherwise>
+</esi:choose>
+
+<script>
+  var disableAds = false;
+  PageCriteria = window.PageCriteria || {};
+  PageCriteria.clientIP = '$(REMOTE_ADDR)';
+  PageCriteria.nonAdservable = '' === 'true';
+  PageCriteria.device = '$(device)';
+  PageCriteria.liveCommentary = false;
+  PageCriteria.liveBlog = false;
+  PageCriteria.hasLiveBlogHeaderXpmodule = false;
+  PageCriteria.hasVideoHeroXpmodule = false;
+</script>
+-->
+
+<!-- dynamic_ad_control_url: <esi:vars>$(ads_position_base_url)</esi:vars> -->
+<!--esi
+<esi:vars><!-- ad: $(ads_position_base_url)/headertags.html --\></esi:vars>
+<esi:include src="$(ads_position_base_url)/headertags.html" onerror="continue" maxwait="2000"/>
+-->
+<meta name='ir-site-verification-token' value='735853472'><meta name ="robots" content="noindex,follow" />
+<meta http-equiv ="Content-Type" content="text/html; charset=UTF-8" />
+<meta name ="googlebot" content="noindex,follow" />
+        <link rel="stylesheet" type="text/css" media="all" href="https://scripts.dailymail.com/static/mol-adverts/13.1.0/mol-adverts.desktop.css" />
+<link href="https://www.dailymail.com/static/mol-fe/static/mol-fe-design-system/latest/designTokens.css" media="all" rel="stylesheet" type="text/css" /><!--[if !IE]><!-->
+<link href="https://scripts.dailymail.com/static/mol-fe/static/mol-fe-async-bundle/11.78.2/channelDefer.css" media="all" rel="stylesheet" type="text/css" />
+<!--<![endif]-->
+<!--[if IE]>
+<link href="https://scripts.dailymail.com/static/gunther/1.17.0/registration--.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if !IE]><!-->
+<link href="https://scripts.dailymail.com/static/gunther/18.5.1/registration--.css" media="all" rel="stylesheet" type="text/css" />
+<!--<![endif]--><!--[if IE]>
+<link href="https://scripts.dailymail.com/static/gunther/1.17.0/all-ie8-9--.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://scripts.dailymail.com/static/gunther/1.17.0/all1-ie8-9--.css" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if !IE]><!-->
+<link href="https://scripts.dailymail.com/static/mol-fe/static/mol-fe-sync-bundle/16.0.0/desktop.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://scripts.dailymail.com/static/gunther/18.5.1/all--.css" media="all" rel="stylesheet" type="text/css" /><link href="https://scripts.dailymail.com/static/gunther/18.5.1/all1--.css" media="all" rel="stylesheet" type="text/css" />
+<!--<![endif]--><noscript><style>img[data-src]{display: none;}</style></noscript>
+<script type="text/javascript">
+  useGpt = true;
+
+  PageCriteria = window.PageCriteria || {};
+
+  PageCriteria.cljVersion = '6.7.0';
+  PageCriteria.cljNode = 'cljfe-b7';
+  PageCriteria.cljGeo = ('row' || 'GB').toUpperCase();
+  PageCriteria.ccRender = false;
+  PageCriteria.channel = 'home';
+  PageCriteria.subchannel = 'home';
+  PageCriteria.geo = ('row' || 'GB').toUpperCase();
+  PageCriteria.latitude = "51.5072";
+  PageCriteria.longitude = "0.1275";
+  PageCriteria.refresh = 3600;
+  PageCriteria.refreshTablet = 3600;
+  PageCriteria.refreshDesktop = 1920;
+  PageCriteria.mailtoEmailLinks = !!'';
+  PageCriteria.geoDesktopPopupEnabled = true;
+  PageCriteria.hideFacebook = 'false';
+  PageCriteria.showFlipboard = 'true';
+  PageCriteria.showSnapchat = 'true';
+  PageCriteria.showFbMessenger = 'true';
+  PageCriteria.safariNewsletterEnabled = false;
+  PageCriteria.desktopDownloadPromptEnabled = true;
+  PageCriteria.safariNewsletterCid = '0765aa0e6736e46d0dda6d8b02eb35f7';
+  PageCriteria.safariNewsletterList = 'cc-prod-all-all';
+  PageCriteria.safariNewsletterDefaultList = 'news';
+  PageCriteria.safariNewsletterLists = ['news', 'sport', 'tvshowbiz'];
+  PageCriteria.safariNewsletterUseChannelOwnColor = false;
+
+  PageCriteria.pageType = 'channel';
+ PageCriteria.showNewzitNotificationPrompt = false;
+ var PUSHLY_DOMAIN_KEY = 'PYGfY6VSoQx2z2MJUVW0nL7t0AyIAHprQ6IJ';
+</script>
+
+<!--esi
+<script type="text/javascript">
+PageCriteria.latitude = "$(GEO{'lat'})";
+PageCriteria.longitude = "$(GEO{'long'})";
+PageCriteria.geo = "$(GEO{'country_code'})" || PageCriteria.geo;
+PageCriteria.region = "$(GEO{'region_code'})" || '';
+PageCriteria.timestamp = $time();
+PageCriteria.isMobile = "$(AKA_PM_DEV_CHAR_IS_MOBILE)";
+PageCriteria.isMobile = (!!PageCriteria.isMobile) ? PageCriteria.isMobile === 'is_mobiletrue' : undefined;
+PageCriteria.isTablet = "$(AKA_PM_DEV_CHAR_IS_TABLET)";
+PageCriteria.isTablet = (!!PageCriteria.isTablet) ? PageCriteria.isTablet === 'is_tablettrue' : undefined;
+</script>
+-->
+
+<script type="text/javascript">
+  var ANDDebugOn = false;
+  var s_account = 'anddailymailprod';
+  var s_account15 = 'molglobalprod';
+  var haveRenderedSponsoredPollOnPage = false;
+  var useRtp = false;
+</script>
+<script type="text/javascript">
+var twitterVia = 'DailyMail';
+</script>
+<script type="text/javascript">
+var adReferrer = '';
+var adType='dart',
+    dartSiteId = "dailymail.uk",
+    adAreaSiteId = "dm",
+    adAreaId = "home",
+    adSubareaId = (adReferrer == "") ? "" || "home" : adReferrer,
+    adPageType = 'hp',
+    adContent = "",
+    adSection = '',
+    adArticleId = "",
+    adEnvironment = "production",
+    enableAds=true;
+</script>
+<script src="https://scripts.dailymail.com/rta2/v2-mol-3.19.0.js" class="RTA2-loader" data-hosts="ted.dailymail.co.uk,t.dailymail.co.uk"></script>
+<!--[if IE 8]>
+<script src="https://scripts.dailymail.com/static/mol-fe/static/mol-fe-polyfill/1.0.2/ie8.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="https://scripts.dailymail.com/static/mol-fe/static/mol-fe-polyfill/1.0.2/ie9.js"></script>
+<![endif]-->
+<!--[if IE]>
+<script src="https://scripts.dailymail.com/static/gunther/1.17.0/sync_bundle--.js"></script>
+<![endif]-->
+<!--[if !IE]> -->
+<script src="https://scripts.dailymail.com/static/mol-fe/static/mol-fe-sync-bundle/16.0.0/desktop.js"></script>
+
+<script>
+  const SOPHI_HOST_BY_GEO = {
+    AU: '263596202',
+    GB: '3666695123',
+    ROW: '1925013842',
+    US: '1321371076'
+  };
+
+  const SOPHI_HOST_BY_GEO_INT = {
+    AU: '2351856024',
+    GB: '711919013',
+    ROW: '434186525',
+    US: '454933469'
+  };
+
+  const PAYWALL_EXCLUDE_GEOS = ['IN', 'IR', 'CU', 'KP', 'SY', 'VE', 'AF', 'BY', 'BI', 'CF', 'CN', 'HK', 'CD', 'EG', 'ER', 'ET', 'IQ', 'LB', 'LY', 'ML', 'MM', 'NI', 'GN', 'GW', 'RU', 'SO', 'SS', 'SD', 'TN', 'TR', 'UA', 'YE', 'ZW'];
+
+  window.getIsPaywallEligible = () => {
+   return window.PageCriteria && window.PageCriteria.geo && !PAYWALL_EXCLUDE_GEOS.includes(window.PageCriteria.geo);
+  };
+
+  const getSophiGeo = () => {
+    const geo = window?.PageCriteria?.cljGeo || 'GB';
+
+    if (['GB', 'IE'].includes(geo)) {
+      return 'GB';
+    }
+
+    if (['AU', 'NZ'].includes(geo)) {
+      return 'AU';
+    }
+
+    if (['US', 'CA', 'MX'].includes(geo)) {
+      return 'US';
+    }
+
+    return 'ROW';
+  };
+
+  const scriptPromises = new Map();
+
+  const addSophiScriptToPage = (hostId) => {
+    const source = `https://cdn.sophi.io/assets/demeter/1/stable/${hostId}.js`;
+
+    if (scriptPromises.has(source)) {
+      return scriptPromises.get(source);
+    }
+
+    const script = document.createElement('script');
+
+    script.id = 'sophi-loader';
+    script.async = true;
+    script.fetchPriority = 'high';
+
+    const promise = new Promise((resolve, reject) => {
+      script.src = source;
+
+      script.onload = () => resolve(true);
+
+      script.onerror = () => {
+        if (!window.molSophiFeatureOff) {
+          window.molSophiFeatureOff = 'sophi-script-load-error';
+        }
+
+        console.error(`*** Failed to load script: ${script.src}`);
+
+        window._s('xsl');
+
+        reject(new Error(`Failed to load script: ${script.src}`));
+      };
+
+      document.head.appendChild(script);
+
+      window._s('l');
+    });
+
+    scriptPromises.set(source, promise);
+
+    return promise;
+  };
+
+  const setSophiHelper = () => {
+    window._s = function (condition) {
+      const demeter = window.sophi.demeter;
+      const formatTime = String(Math.floor(performance.now() / 10) / 100).replace(/^0\./, '.');
+
+      demeter.initStatus = `${demeter.initStatus ? `${demeter.initStatus},` : ''}${condition}${formatTime}`;
+    };
+  };
+
+  const loadSophiScript = async () => {
+    window.sophi = window.sophi || {};
+
+    window.sophi.demeter = {
+      actions: [],
+      initStatus: ''
+    };
+
+    setSophiHelper();
+
+    window.demeter = window.demeter ||
+      async function () {
+        let resolve;
+        let reject;
+
+        const task = new Promise((_resolve, _reject) => {
+          resolve = _resolve;
+          reject = _reject;
+        });
+
+        window.sophi.demeter.actions.push([arguments, resolve, reject]);
+
+        window._s('i');
+
+        return task;
+      };
+
+    window.addEventListener(
+      'sophiDataLayerReady',
+      (event) => {
+        window.molSophiDataLayerEventFired = event;
+      },
+      { once: true }
+    );
+
+    const hostIds = window?.location.hostname.includes('int')
+      ? SOPHI_HOST_BY_GEO_INT
+      : SOPHI_HOST_BY_GEO;
+
+    const hostId = hostIds[getSophiGeo()];
+
+    await addSophiScriptToPage(hostId);
+  };
+
+  loadSophiScript().catch((error) => {
+    console.error('Error loading Sophi script inline', error);
+  });
+</script>
+<!--<![endif]--><!--esi
+<esi:choose>
+  <esi:when test="$(HTTP_COOKIE{'authid'}) matches '''([0-9]+)#.+'''" matchname="authid">
+    <script type="text/javascript">
+    DM.isLoggedIn = true;
+     DM.userId = '$(authid{1})';
+    </script>
+  </esi:when>
+  <esi:otherwise>
+    <script type="text/javascript">
+    DM.isLoggedIn = false;
+    </script>
+  </esi:otherwise>
+</esi:choose>
+-->
+
+<!--esi
+<esi:choose>
+  <esi:when test="$(HTTP_COOKIE{'_ud'}) matches '.*'" matchname="_ud">
+    <script type="text/javascript">
+    DM.userData = '$(_ud{0})';
+    </script>
+  </esi:when>
+</esi:choose>
+-->
+<!--esi
+<esi:choose>
+    <esi:when test="$(HTTP_COOKIE{'mol-home'}) == 'desktop'">
+        <esi:assign name="classicHomepage" value="true"/>
+    </esi:when>
+    <esi:otherwise>
+        <esi:assign name="classicHomepage" value="false"/>
+    </esi:otherwise>
+</esi:choose>
+    <esi:vars><!-- ad-config: $(ads_position_base_url)/$(classicHomepage)/dailymail/config.html --\></esi:vars>
+    <esi:include src="$(ads_position_base_url)/$(classicHomepage)/dailymail/config.html" onerror="continue" maxwait="2000"/>
+-->
+<script src="https://scripts.dailymail.com/static/mol-adverts/13.1.0/mol-adverts.js"></script>
+<!--[if IE]>
+<script>
+  (function (src, d, tag){
+    var s = d.createElement(tag), prev = d.getElementsByTagName(tag)[0];
+    s.src = src;
+    prev.parentNode.insertBefore(s, prev);
+    }("https://scripts.dailymail.com/static/gunther/1.17.0/async_bundle--.js", document, "script"));</script>
+<![endif]-->
+<!--[if !IE]> -->
+<script defer="defer" src="https://scripts.dailymail.com/static/mol-fe/static/mol-fe-async-bundle//11.78.2/channelDefer.js"></script>
+<script async="async" src="https://scripts.dailymail.com/static/gunther/18.5.1/async_bundle--.js"></script>
+<!--<![endif]--><script async type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script><!--[if IE]>
+  <script>
+    DM.loadCSS("https://scripts.dailymail.com/static/gunther/gunther-2159/video_bundle--.css");
+  </script>
+  <noscript><link rel="stylesheet" href="https://scripts.dailymail.com/static/gunther/gunther-2159/video_bundle--.css"></noscript>
+  <script defer src="https://scripts.dailymail.com/static/gunther/gunther-2159/video_bundle--.js"></script>
+<![endif]-->
+<!--[if !IE]> -->
+  <link rel="preload" href="https://scripts.dailymail.com/static/videoplayer/7.16.0/styles/mol-fe-videoplayer.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://scripts.dailymail.com/static/videoplayer/7.16.0/styles/mol-fe-videoplayer.min.css"></noscript>
+  <script defer src="https://scripts.dailymail.com/static/videoplayer/7.16.0/scripts/mol-fe-videoplayer.min.js" ></script>
+<!-- <![endif]-->
+<!-- SiteCatalyst code version: H.20.3.
+    Copyright 1997-2009 Omniture, Inc. More info available at
+    http://www.omniture.com -->
+
+    <script type="text/javascript">
+      var searchTerms = '';
+    </script>
+
+    <!--esi
+    <esi:choose>
+    <esi:when test="$(QUERY_STRING{'searchPhrase'})">
+    <script type="text/javascript">
+      searchTerms = decodeURIComponent('$url_encode($(QUERY_STRING{'searchPhrase'}))');
+    </script>
+    </esi:when>
+    </esi:choose>
+    -->
+
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    (function() {
+        window.dm = window.dm ||{ AjaxData:[]};
+        window.dm.AjaxEvent = function(et, d, ssid, ad){
+            dm.AjaxData.push({ et: et,d: d,ssid: ssid,ad: ad});
+            window.DotMetricsObj && DotMetricsObj.onAjaxDataUpdate();
+        };
+        var d = document,
+        h = d.getElementsByTagName('head')[0],
+        s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://uk-script.dotmetrics.net/door.js?d=' + document.location.host + '&t=home';
+        h.appendChild(s);
+    } ());/* ]]> */
+    </script>
+
+    <script type="text/javascript">
+
+
+    var refererHost = "direct";
+
+    if (document.referrer) {
+        var docReferrerHostMatches = new RegExp("://([^/]*)/.*").exec(document.referrer);
+        /* Check just to be safe */
+        if (docReferrerHostMatches) {
+            var docReferrerHost = docReferrerHostMatches[1];
+            refererHost = docReferrerHost;
+        }
+    }
+
+    // login tracking (1)
+    DM.pageEvents.listen(DM.pageEvents.PAGE_LOGIN_BUTTON_CLICKED, function (obj, event, pars){
+        if (pars.action === 'loggingIn'){
+            document.cookie = "attempting_login=true; path=/";
+        }
+    });
+
+    var pagemeta = {
+        environment: 'production',
+        clientSegmentation: {"segments":{"a":{"weight":10},"b":{"weight":10},"c":{"weight":80}},"shuffleNumber":2,"defaultSegment":"default"},
+        comscoreClientId: '14366613',
+        comscoreNsSite: 'master',
+        domain: 'dailymail.com',
+        channel: '/home',
+        channelId: '1',
+        subChannel: '/home',
+        subChannel2: '',
+        contentType: 'error',
+        articleTitle: '',
+        articleId: '',
+        articleVersionNumber: '',
+        internalSearchTerms: searchTerms,
+        loggedInStatus: (DM.isLoggedIn ? 'Logged In' : 'Logged Out'),
+        galleryTitle: '',
+        galleryId: '',
+        threadTitle: '',
+        threadId: '',
+        userId: DM.userId,
+        partnerSite:  '',
+        publishedDate: null,
+        updatedDate: null,
+        authorName: '',
+        authorsIds: [],
+        authorsShortNames: [],
+        errorUrl: '',
+        serverDate: new Date(1780561148280),
+        url: 'D=g',
+        referringSubDomain: refererHost,
+        topics: [],
+        inlineLinks: '',
+        pageName: '/home/error',
+        products: '',
+        bundleLocation: 'https://scripts.dailymail.com/static/gunther/18.5.1',
+        bundleVersion: '18.5.1',
+        syncBundleLocation: 'https://scripts.dailymail.com/static/mol-fe/static/mol-fe-sync-bundle/16.0.0',
+        syncBundleVersion: '16.0.0',
+        asyncBundleLocation: 'https://scripts.dailymail.com/static/mol-fe/static/mol-fe-async-bundle/11.78.2',
+        asyncBundleVersion: '11.78.2',
+        videoBundleLocation: 'https://scripts.dailymail.com/static/videoplayer/7.16.0',
+        videoBundleVersion: '7.16.0',
+        adsBundleLocation: 'https://scripts.dailymail.com/static/mol-adverts/13.1.0',
+        adsBundleVersion: '13.1.0',
+        feTag: 'fe_desktop_default',
+        appVersion: '6.7.0',
+        configVersion: '5854',
+        textBased: false,
+        isDecorator: '' === 'true',
+        isFeatureArticle: '' === 'true',
+        webPush: {"baseEndpoint":"https://hulkprod.anm.co.uk/api/web-push-notification/","hostname":"dailymail.co","promptFrequency":"7d","pullNotificationEnabled":true,"pullNotificationTTL":1800000,"pullNotificationScrollThreshold":500,"pullNotificationStartDelay":0,"promptEnabled":true},
+        wordCount: '0:0:0:0:0:0:0',
+        relatedWithThumbs: true,
+        renderPlatform: 'desktop',
+        isTopicLiveBlog: false
+       };
+         // login tracking (1)
+
+
+     window.feTag = 'fe_desktop_default';
+
+    if (document.cookie.replace(/(?:(?:^|.*;\s*)attempting_login\s*\=\s*([^;]*).*$)|^.*$/, "$1") === "true" && DM.isLoggedIn) {
+            document.cookie = "attempting_login=false; path=/";
+            pagemeta.registrationEntry = 'Successfully Logged In';
+    }
+
+    DM.setPageMetadata(pagemeta);
+
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    DM.pageEvents.fireEvent(DM.pageEvents.PAGE_RENDER_STARTED, DM.getPageMetadata());
+    </script>
+
+
+    <script type="text/javascript">
+
+    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+    </script>
+
+    <script type="text/javascript">
+    window.molMVTest = (window.molMVTest ? window.molMVTest + ',' : '') + pagemeta.feTag;
+    </script>
+
+    <!-- End SiteCatalyst code version: H.20.3. -->
+<script type="text/javascript">
+DM.platformConfig = {
+  features: {}
+};
+Object.assign(DM.platformConfig.features, {});
+</script>
+<script type="text/javascript">
+ if (MobileUtils.isIPhone()) {
+     document.documentElement.className += ' is_iphone';
+ } else if (MobileUtils.isIPad()) {
+     document.documentElement.className += ' is_ipad';
+ }
+</script>
+<script>
+var currentChannelTwitterFollow = '';
+DM.later('bundle', function (){
+  DMS.Navigation.init({
+    facebookAppId: '',
+    facebookChannelUrl: '',
+    channel: '',
+    hostName: ''
+  });
+});
+</script>
+<script>
+window.BOOMR=window.BOOMR||{},window.BOOMR.plugins=window.BOOMR.plugins||{},window.BOOMR.plugins.CWV={cls:0,initialized:!1,unloadSent:!1,extraVars:{},extractedDimensions:!1,init:function(i){function s(i){this.unloadSent||i["c.cls"]&&(this.cls+=parseFloat(i["c.cls"],10),delete i["c.cls"])}function t(i){if(!this.unloadSent&&!this.extractedDimensions&&!i["http.initiator"])for(var s in this.extractedDimensions=!0,i["h.pg"]&&(this.extraVars["h.pg"]=i["h.pg"]),i)0===s.indexOf("cdim.")&&(this.extraVars[s]=i[s])}this.initialized||(this.initialized=!0,BOOMR.subscribe("before_beacon",s,null,this),BOOMR.subscribe("beacon",s,null,this),BOOMR.subscribe("before_beacon",t,null,this),BOOMR.subscribe("beacon",t,null,this),BOOMR.subscribe("page_unload",(function(i){if(!this.unloadSent){this.unloadSent=!0;i={};for(var s in i["rt.tstart"]=i["rt.end"]=BOOMR.now(),i.d=BOOMR.session.domain,i["h.key"]=BOOMR.getVar("h.key"),i["h.d"]=BOOMR.getVar("h.d"),i["h.cr"]=BOOMR.getVar("h.cr"),i["h.t"]=BOOMR.getVar("h.t"),i.pid=BOOMR.pageId,i["rt.start"]="manual",BOOMR.session&&!1!==BOOMR.session.ID&&(i["rt.si"]=BOOMR.session.ID+"-"+Math.round(BOOMR.session.start/1e3).toString(36),i["rt.ss"]=BOOMR.session.start,i["rt.sl"]=BOOMR.session.length),i.api=1,i["api.v"]=2,i["api.l"]="boomr",i.v=BOOMR.version,i.n=++BOOMR.beaconsSent,this.extraVars)i[s]=this.extraVars[s];var t=BOOMR.plugins.EventTiming.metrics.firstInputDelay()||BOOMR.plugins.Continuity.metrics.firstInputDelay();null!==t&&(i["et.fid"]=t),window.LayoutShift&&(this.cls=this.cls+BOOMR.plugins.Continuity.metrics.clsScore(),i["c.cls"]=this.cls),"number"!=typeof t&&"number"!=typeof this.cls||BOOMR.sendBeaconData(i)}}),null,this))},is_complete:function(){return!0}};
+</script>
+</head><body class="tlc-home homehome" id="errorpage"><div class="page" id="top"><div id="page-container"><div class="clear">&nbsp;</div><div><!--esi<esi:include onerror="continue" src="/xpmodules/mol-fe-xpmodule-navigation-default@1/renderHead?data=%7B%22env%22%3A%7B%22channel%22%3A%22home%22%2C%22geo%22%3A%22row%22%2C%22platform%22%3A%22mol.web.desktop%22%7D%2C%22values%22%3A%7B%22disableDynamicPaywall%22%3Afalse%2C%22pageType%22%3A%22article%22%7D%7D" maxwait="2000"></esi:include>--><!--esi<esi:include onerror="continue" src="/xpmodules/mol-fe-xpmodule-navigation-default@1/renderBody?data=%7B%22env%22%3A%7B%22channel%22%3A%22home%22%2C%22geo%22%3A%22row%22%2C%22platform%22%3A%22mol.web.desktop%22%7D%2C%22values%22%3A%7B%22disableDynamicPaywall%22%3Afalse%2C%22pageType%22%3A%22article%22%7D%7D" maxwait="2000"></esi:include>--></div></div><!-- from masthead --><div id="content"><div class="news page-not-found scrollable-content cleared"><h1>Let's try again </h1><p>Sorry, we can't find the page you are looking for. Would you like to go <a class="highlight" href="javascript: history.back()">back to where you were</a>, or search for it?</p><form action="/home/search.html" id="searchForm" method="get" name="searchForm"><fieldset class="cleared"><input class="text-input" id="searchPhrase" name="searchPhrase" placeholder="Search..." type="text" />
+<button class="submit" type="submit">Search</button></fieldset></form><p>You can also try browsing our<a class="highlight" href="/home/sitemap.html"> site map</a></p><div class="top-stories"><h3 class="stories-title wocc">More top stories from MailOnline...</h3><ul>
+<li><a href="/news/article-15867645/Henry-Nowak-murder-reconstruction-Vickrum-Digwa.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/16/109088569-0-image-m-9_1780500781530.jpg" width="152" /><span class="highlight">Three hours in Southampton that exposed 'two-tier' Britain: What really happened the night Henry Nowak was...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T16:53:03+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15867645/Henry-Nowak-murder-reconstruction-Vickrum-Digwa.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15867645">346</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15870543/Pakistanis-gang-raped-French-tourist-three-children-executed-court-rules.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/14/40834390-0-image-m-19_1780492451764.jpg" width="152" /><span class="highlight">Pakistanis who gang-raped French tourist in front of her three children after her car ran out of fuel will be...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T14:15:52+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15870543/Pakistanis-gang-raped-French-tourist-three-children-executed-court-rules.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15870543">1.2k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15872225/Grandmother-Henry-Nowak-killer-speaks-difficult-boy.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/04/01/109102235-0-image-m-14_1780532341918.jpg" width="152" /><span class="highlight">'This has destroyed two families': Grandmother of Henry Nowak's killer speaks out about 'difficult boy' and...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-04T00:48:20+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15872225/Grandmother-Henry-Nowak-killer-speaks-difficult-boy.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15872225">2.2k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15869835/Top-Sikh-cop-defends-police-amid-fury-protests-Henry-Nowak-murder-Policing-director-rejects-two-tier-accusations-insists-officers-tragic-mistake-accepting-Sikh-killers-race-lies.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/09/109070179-0-image-a-19_1780476234762.jpg" width="152" /><span class="highlight">Kemi Badenoch warns Henry Nowak case must be a 'wake up call' as police race bias rules are blamed for...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T09:25:10+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15869835/Top-Sikh-cop-defends-police-amid-fury-protests-Henry-Nowak-murder-Policing-director-rejects-two-tier-accusations-insists-officers-tragic-mistake-accepting-Sikh-killers-race-lies.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15869835">4.9k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15870377/More-thirty-Chinese-Jaecoo-SUVs-worth-900-000-flames-Southampton-docks.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/13/109076793-0-Thirty_three_Jaecoo_SUV_hybrid_vehicles_worth_almost_1million_ha-a-51_1780490021695.jpg" width="152" /><span class="highlight">More than thirty Chinese made Jaecoo SUVs worth nearly £1million go up in flames at Southampton docks</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T11:47:22+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15870377/More-thirty-Chinese-Jaecoo-SUVs-worth-900-000-flames-Southampton-docks.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15870377">1.4k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li class="last"><a href="/news/article-15871391/BBC-forced-grovelling-apology-Nigel-Farage-Newsnight-row-Reform-chief-accused-corporation-defamation-Henry-Nowak-murder.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/16/109089287-0-image-a-4_1780501938793.jpg" width="152" /><span class="highlight">BBC forced into grovelling apology to Nigel Farage after Newsnight row in which Reform chief accused...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T16:50:24+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15871391/BBC-forced-grovelling-apology-Nigel-Farage-Newsnight-row-Reform-chief-accused-corporation-defamation-Henry-Nowak-murder.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15871391">1.7k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15869825/Sikh-taxi-driver-shakes-hands-Henry-Nowak-protesters-Southampton.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/09/109070497-0-image-m-28_1780476999516.jpg" width="152" /><span class="highlight">'This is nothing to do with the faith': Moment Sikh taxi driver shakes hands with Henry Nowak protesters in...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T16:07:09+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15869825/Sikh-taxi-driver-shakes-hands-Henry-Nowak-protesters-Southampton.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15869825">708</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/royals/article-15869977/kate-public-admission-love-prince-william.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/10/109072041-0-image-m-11_1780479061018.jpg" width="152" /><span class="highlight">Kate's rare public declaration of 'love' for Prince William after Ronan Keating's wife Storm gushes the future...</span></a><div class="article-icon-links-container"
+     data-followbutton="MailOnline"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="Royals" data-pub-date="2026-06-03T10:31:46+0100" data-channel-url="/news/royals/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/royals/article-15869977/kate-public-admission-love-prince-william.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15869977">757</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15870329/Nigel-Farages-lawyers-demand-urgent-apology-BBC-Newsnight-row-host-accused-defaming-Reform-chief.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/11/109076655-0-image-a-4_1780483699609.jpg" width="152" /><span class="highlight">Nigel Farage's lawyers demand urgent apology from BBC over Newsnight row in which host is accused of...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T11:52:14+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15870329/Nigel-Farages-lawyers-demand-urgent-apology-BBC-Newsnight-row-host-accused-defaming-Reform-chief.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15870329">2k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15870013/Woman-37-adopted-unwitting-family-14-months-convincing-12-year-old-fled-abusive-parents.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/09/109069711-0-image-m-14_1780476281457.jpg" width="152" /><span class="highlight">Woman, 37, is 'adopted' by unwitting family for 14 months after convincing them she was a 12-year-old who had...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T09:59:29+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15870013/Woman-37-adopted-unwitting-family-14-months-convincing-12-year-old-fled-abusive-parents.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15870013">407</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li><a href="/news/article-15871423/Police-chief-doesnt-recognise-claims-two-tier-policing-apologises-Henry-Nowaks-family-officers-handcuffing-arresting-18-year-old-bled-death.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/17/109090811-0-image-a-28_1780504337087.jpg" width="152" /><span class="highlight">Police chief apologises to Henry Nowak's family for officers handcuffing and arresting 18-year-old while he...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T17:11:41+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15871423/Police-chief-doesnt-recognise-claims-two-tier-policing-apologises-Henry-Nowaks-family-officers-handcuffing-arresting-18-year-old-bled-death.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15871423">2.5k</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li>
+<li class="last"><a href="/news/article-15870151/Fiancee-wins-legal-battle-partners-mother-cremated.html"><img height="115" src="https://i.dailymail.com/1s/2026/06/03/11/109075881-0-image-m-15_1780483579479.jpg" width="152" /><span class="highlight">Fiancee wins legal battle against her tragic partner's mother to have him cremated rather than buried after he...</span></a><div class="article-icon-links-container"
+     data-followbutton="DailyMail"
+     >
+  <ul class="article-icon-links cleared">
+    <li class="article-icon-links__pubInfo" data-channel="News" data-pub-date="2026-06-03T12:20:49+0100" data-channel-url="/news/"></li>
+    <li class="first">
+  <a class="comments-link" href="https://www.dailymail.com/news/article-15870151/Fiancee-wins-legal-battle-partners-mother-cremated.html#comments" rel="nofollow">
+    <span class="icon"></span>
+    <span class="linktext">
+        <span class="readerCommentNo bold" rel="15870151">28</span> comments
+    </span>
+  </a>
+</li>
+
+  </ul>
+</div>
+</li></ul></div></div><script type="text/javascript">
+  DM.later('bundle', function(){
+    DM.has('content', 'shareLinks', { isChannel: true,
+        'anchor': 'tl'});
+    DM.has('content', 'emailLightbox', {captchaKey: "6LeY2-4SAAAAAIBDImssm1PBXuabVBZBFd0Uin2d"});
+  });
+</script>
+<script type="text/javascript">
+  DM.later('bundle', function(){
+    DM.has('content', 'shareLinks', { isChannel: true,
+        'anchor': 'tl'});
+    DM.has('content', 'emailLightbox', {captchaKey: "6LeY2-4SAAAAAIBDImssm1PBXuabVBZBFd0Uin2d"});
+  });
+</script>
+</div><!--esi<esi:include onerror="continue" src="/xpmodules/mol-fe-xpmodule-footer-default@1/renderHead?data=%7B%22env%22%3A%7B%22channel%22%3A%22home%22%2C%22geo%22%3A%22row%22%2C%22platform%22%3A%22mol.web.desktop%22%7D%2C%22values%22%3A%7B%22disableDynamicPaywall%22%3Afalse%7D%7D" maxwait="2000"></esi:include>--><!--esi<esi:include onerror="continue" src="/xpmodules/mol-fe-xpmodule-footer-default@1/renderBody?data=%7B%22env%22%3A%7B%22channel%22%3A%22home%22%2C%22geo%22%3A%22row%22%2C%22platform%22%3A%22mol.web.desktop%22%7D%2C%22values%22%3A%7B%22disableDynamicPaywall%22%3Afalse%7D%7D" maxwait="2000"></esi:include>--></div></div></body></html>

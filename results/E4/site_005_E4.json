@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field 'nme' on type 'Query'. Did you mean 'node'?\n\nGraphQL request:1:3\n1 | { nme }\n  |   ^"}]}

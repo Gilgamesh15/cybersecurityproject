@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot deserialize value of type `eu.ehri.project.graphql.GraphQLQuery` from Array value (token `JsonToken.START_ARRAY`)","location":[{"line":1,"column":1}],"type":"JsonError"}]}

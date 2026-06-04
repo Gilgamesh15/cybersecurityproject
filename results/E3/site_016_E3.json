@@ -1,0 +1,1 @@
+{"errors":[{"message":"Field '__nonexistent_field_xyz_diagnostic' doesn't exist on type 'Query'","locations":[{"line":1,"column":3}],"path":["query","__nonexistent_field_xyz_diagnostic"],"extensions":{"code":"undefinedField","typeName":"Query","fieldName":"__nonexistent_field_xyz_diagnostic"}}]}

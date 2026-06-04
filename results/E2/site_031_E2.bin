@@ -1,0 +1,1 @@
+{"errors":[{"message":"Invalid GraphQL request","extensions":{"details":"There was no GraphQL operation to execute. Use the `query` parameter to send an operation, using either GET or POST.","code":"INVALID_GRAPHQL_REQUEST"}}]}

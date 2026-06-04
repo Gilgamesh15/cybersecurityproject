@@ -1,0 +1,1 @@
+{"errors":[{"message":"GraphQL operations must contain a non-empty `query` or a `persistedQuery` extension.","extensions":{"code":"BAD_USER_INPUT","exception":{"type":"empty_query"}}}]}
